@@ -161,7 +161,7 @@
   },
   "Features": [
     {
-      "icon": "img/icon/ms.png",
+      "img": "img/icon/ms.png",
       "title": "Microsoft 365",
       "text": "Tingkatkan Produktifitas team anda dengan Microsoft 365."
     },
