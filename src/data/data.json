@@ -79,9 +79,9 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-calendar",
+      "name": "Open Class: Microservice Architecture for Business",
+      "text": "Microservice as the word suggests the word 'Micro' means small and the word 'Service' means modular service that runs a process and lightweight mechanism to serve a certain goal (1 month (21x online) 7.30 PM)."
     },
     {
       "icon": "fa fa-cart-arrow-down",
@@ -184,8 +184,8 @@
     },
     {
       "icon": "fa fa-hdd-o",
-      "title": "Microservice Architecture for Business",
-      "text": "Microservice as the word suggests the word 'Micro' means small and the word 'Service' means modular service that runs a process and lightweight mechanism to serve a certain goal."
+      "title": "Data Center",
+      "text": "Mini data centre planning and construction services are integral to our expertise in developing information technology infrastructure."
     },
     {
       "icon": "fa fa-users",
