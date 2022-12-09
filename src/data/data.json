@@ -163,22 +163,22 @@
     {
       "icon": "fa fa-laptop",
       "title": "Microsoft 365",
-      "text": "Tingkatkan Produktifitas team anda dengan Microsoft 365."
+      "text": "Increase your team's productivity with Microsoft 365 by making your users' work more accessible."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-server",
+      "title": "Microsoft Cloud Azure",
+      "text": "You can use Microsoft's data centre and backup centre to create an environment that requires as many resources as you need."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-hdd-o",
+      "title": "Microservice Architecture for Business",
+      "text": "Microservice as the word suggests the word 'Micro' means small and the word 'Service' means modular service that runs a process and lightweight mechanism to serve a certain goal."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-users",
+      "title": "Academy",
+      "text": "Academy is a premium technology-based online academy designed to create professionals in the IT department. Students will learn with real case studies guided by experienced tutors."
     }
   ]
 }
