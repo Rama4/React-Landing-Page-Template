@@ -81,12 +81,13 @@
     {
       "icon": "fa fa-calendar",
       "name": "Open Class: Microservice Architecture for Business",
-      "text": "Microservice as the word suggests the word 'Micro' means small and the word 'Service' means modular service that runs a process and lightweight mechanism to serve a certain goal (1 month (21x online) 7.30 PM)."
+      "time": "21x online, 2 Jan 2023 - 7.30PM",
+      "text": "Microservice as the word suggests the word 'Micro' means small and the word 'Service' means modular service that runs a process and lightweight mechanism to serve a certain goal (21x online - 7.30 PM)."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Open Class: Language Database",
+      "text": "Databases are essential for many individuals and companies, providing a practical way to organize and store information on a computer. In programming, developers use database languages to maintain and monitor an electronic database and its management system. ."
     },
     {
       "icon": "fa fa-cloud-download",
