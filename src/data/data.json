@@ -161,7 +161,7 @@
   },
   "Features": [
     {
-      "img": "img/icon/ms.png",
+      "icon": "fa fa-laptop",
       "title": "Microsoft 365",
       "text": "Tingkatkan Produktifitas team anda dengan Microsoft 365."
     },
