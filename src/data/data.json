@@ -1,68 +1,80 @@
 {
   "Header": {
     "title": "We are a Great Team",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "Ratu Digital is an IT Provider that can help businesses in digital transformation through strategy, product development, and creative communication."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Ratu Digital is dedicated to becoming a company that can provide its clients with the best IT solutions and services. We are also seriously developing IT products and services to meet the needs of the IT industry so that we are expected to contribute to increasing the advancement of IT technology in Indonesia. Our focus is on quality results and customer satisfaction. Therefore, we make continuous improvements to improve the quality of our human resources, business processes, and the quality of the services and products we produce..",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "IT Professional",
+      "Assesment & Consulting",
+      "System Integrator",
+      "On Call Support"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Cloud Service",
+      "Cloud Office",
+      "Cloud Backup",
+      "Cloud Server"
+    ],
+    "Why3": [
+      "Security Solution",
+      "Endpoint Security",
+      "Gateway Security",
+      "Privileged Access Management"
+    ],
+    "Why4": [
+      "Network Service",
+      "Network Design & Delivery",
+      "Wi-Fi Service",
+      "VPN Service"
     ]
   },
   "Gallery": [
     {
-      "title": "Aplikasi A",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Azure",
+      "largeImage": "",
+      "smallImage": "img/icon/azure.png"
     },
     {
-      "title": "Aplikasi B",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "AWS",
+      "largeImage": "",
+      "smallImage": "img/icon/aws.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "GCP",
+      "largeImage": "",
+      "smallImage": "img/icon/google.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "VM-Ware",
+      "largeImage": "",
+      "smallImage": "img/icon/vmware.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Lenovo",
+      "largeImage": "",
+      "smallImage": "img/icon/lenovo.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "RedHat",
+      "largeImage": "",
+      "smallImage": "img/icon/red.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Mikrotik",
+      "largeImage": "",
+      "smallImage": "img/icon/mikro.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Fortinet",
+      "largeImage": "",
+      "smallImage": "img/icon/fortinet.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Cisco",
+      "largeImage": "",
+      "smallImage": "img/icon/cisco.png"
     }
   ],
   "Services": [
