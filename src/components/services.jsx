@@ -17,7 +17,7 @@ export const Services = (props) => {
                   <div className='service-desc'>
                     <h3>{d.name}</h3>
                     <h3>{d.date}</h3>
-                    <h4>{d.time}</h4>
+                    <h3>{d.time}</h3>
                     <p>{d.text}</p>
                   </div>
                 </div>
