@@ -82,42 +82,39 @@
       "icon": "fa fa-calendar",
       "name": "Open Class: Microservice Architecture for Business",
       "date": "2 Jan 2023, 21x online",
-      "time": "7.30PM - 10.30PM",
+      "time": "7.00PM - 10.00PM",
       "text": "Microservice as the word suggests the word 'Micro' means small and the word 'Service' means modular service that runs a process and lightweight mechanism to serve a certain goal."
     },
     {
       "icon": "fa fa-calendar",
       "name": "Open Class: Language Database",
-      "date": "2 Jan 2023, 21x online",
-      "time": "7.30PM - 10.30PM",
+      "date": "16 Jan 2023, 12x online",
+      "time": "9.00AM - 12.00AM",
       "text": "Databases are essential for many individuals and companies, providing a practical way to organize and store information on a computer. In programming, developers use database languages to maintain and monitor an electronic database and its management system."
     },
     {
       "icon": "fa fa-calendar",
       "name": "Open Class: Metaverse 3D Design",
-      "date": "2 Jan 2023, 21x online",
-      "time": "7.30PM - 10.30PM",
+      "date": "30 Jan 2023, 16x online",
+      "time": "13.00PM - 15.00PM",
       "text": "We will model an extraordinary 3D fantasy land in this academy with you. We will get to know the Blender 3D program, and then we will make perfect models. This course is an excellent resource for anyone who loves to learn and wants to improve their 3D modelling field."
     },
     {
       "icon": "fa fa-times-circle",
       "name": "Close Class: Digital Marketing",
-      "date": "1 Dec 2022, 21x online",
-      "time": "7.30PM - 10.30PM",
+      "date": "7 Nov 2022, 18x online",
       "text": "Digital Marketing Program prepares students to maximize marketing through digital platforms, such as social media, websites, etc. In this class, you will be encouraged to explore the principles of digital marketing and projects using digital media according to the trends and needs of the target."
     },
     {
       "icon": "fa fa-times-circle",
       "name": "Close Class: Data Analytics",
-      "date": "1 Dec 2022, 21x online",
-      "time": "7.30PM - 10.30PM",
+      "date": "17 Oct 2022, 10x online",
       "text": "The student will be introduced to the foundation of understanding and applying algorithms in programming, data structure, and the concept of objects."
     },
     {
       "icon": "fa fa-times-circle",
       "name": "Close Class: Business Development",
-      "date": "1 Dec 2022, 21x online",
-      "time": "7.30PM - 10.30PM",
+      "date": "3 Oct 2022, 12x online",
       "text": "The entrepreneurship development program aims to foster and assist students who already have a business or are just starting a business so that their company develops and is sustainable. Students' business development and sustainability are highly expected because students have carried out many companies with exciting ideas and creativity."
     }
   ],
