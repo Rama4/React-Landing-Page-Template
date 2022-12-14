@@ -10,10 +10,10 @@ export const Header = (props) => {
                   {props.data ? props.data.title1 : 'Loading'}
                   <span></span>
                 </h1>
-                <h2>
+                <h1>
                   {props.data ? props.data.title2 : 'Loading'}
                   <span></span>
-                </h2>
+                </h1>
                 <h1>
                   {props.data ? props.data.title3 : 'Loading'}
                   <span></span>
