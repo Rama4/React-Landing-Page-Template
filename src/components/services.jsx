@@ -21,7 +21,7 @@ export const Services = (props) => {
                     <p>{d.text}</p>
                   </div>
                   <div>
-                    <a href={d.download} target="_blank">View Flayer</a>
+                    <a href={d.download} target="_blank" class="btn btn-info" role="button">View Flayer</a>
                   </div>
                 </div>
               ))
