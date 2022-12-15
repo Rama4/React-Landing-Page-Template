@@ -20,6 +20,9 @@ export const Services = (props) => {
                     <h3>{d.time}</h3>
                     <p>{d.text}</p>
                   </div>
+                  <div>
+                    <a href={d.download} target="_blank">View Flayer</a>
+                  </div>
                 </div>
               ))
             : 'loading'}

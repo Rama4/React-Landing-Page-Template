@@ -85,7 +85,8 @@
       "name": "Open Class: Microservice Architecture for Business",
       "date": "2 Jan 2023, 21x online",
       "time": "7.00PM - 10.00PM",
-      "text": "Microservice as the word suggests the word 'Micro' means small and the word 'Service' means modular service that runs a process and lightweight mechanism to serve a certain goal."
+      "text": "Microservice as the word suggests the word 'Micro' means small and the word 'Service' means modular service that runs a process and lightweight mechanism to serve a certain goal.",
+      "download": "img/flayer/flayerMicro.pdf"
     },
     {
       "icon": "fa fa-calendar",
@@ -95,7 +96,7 @@
       "text": "Databases are essential for many individuals and companies, providing a practical way to organize and store information on a computer. In programming, developers use database languages to maintain and monitor an electronic database and its management system."
     },
     {
-      "icon": "fa fa-calendar",
+      "icon": "fa fa-times-circle",
       "name": "Close Class: Metaverse 3D Design",
       "date": "5 Dec 2022, 16x online",
       "time": "00.00",
