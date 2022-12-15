@@ -14,15 +14,15 @@ export const Services = (props) => {
                 <div key={`${d.name}-${i}`} className='col-md-4'>
                   {' '}
                   <i className={d.icon}></i>
-                  <div className='service-desc'>
-                    <h3>{d.name}</h3>
-                    <h3>{d.date}</h3>
-                    <h3>{d.time}</h3>
-                    <p>{d.text}</p>
-                  </div>
-                  <div>
-                    <a href={d.download} target="_blank" class="btn btn-info" role="button">View Flayer</a>
-                  </div>
+                  <a href={d.download} target="_blank" class="btn btn-info" role="button">View Flayer</a>
+                  <a href={d.download} target="_blank">
+                    <div className='service-desc'>
+                      <h3>{d.name}</h3>
+                      <h3>{d.date}</h3>
+                      <h3>{d.time}</h3>
+                      <p>{d.text}</p>
+                    </div>
+                  </a>
                 </div>
               ))
             : 'loading'}
