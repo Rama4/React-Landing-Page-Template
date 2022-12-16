@@ -14,7 +14,7 @@ export const Services = (props) => {
                 <div key={`${d.name}-${i}`} className='col-md-4'>
                   {' '}
                   <a href={d.download} target="_blank">
-                  <i className={d.icon}></i>              
+                    <i className={d.icon}></i>              
                     <div className='service-desc'>
                       <a class="btn btn-info" role="button">View Flyer</a>
                       <h3>{d.name}</h3>
