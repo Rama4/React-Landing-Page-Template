@@ -15,8 +15,8 @@ export const Services = (props) => {
                   {' '}
                   <a href={d.download} target="_blank">
                   <i className={d.icon}></i>
-                  <div>
                     <span></span>
+                  <div>
                     <a class="btn btn-info" role="button">View Flayer</a>
                   </div>
                     <div className='service-desc'>
