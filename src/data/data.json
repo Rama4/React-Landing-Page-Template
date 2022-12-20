@@ -90,17 +90,18 @@
     },
     {
       "icon": "fa fa-calendar",
-      "name": "Open Class: Language Database",
+      "name": "Open Class: Metaverse 3D Design",
       "date": "16 Jan 2023, 12x online",
       "time": "9.00AM - 12.00AM",
-      "text": "Databases are essential for many individuals and companies, providing a practical way to organize and store information on a computer. In programming, developers use database languages to maintain and monitor an electronic database and its management system."
+      "text": "We will model an extraordinary 3D fantasy land in this academy with you. We will get to know the Blender 3D program, and then we will make perfect models. This course is an excellent resource for anyone who loves to learn and wants to improve their 3D modelling field.",
+      "download": "img/flyer/Flyer-Metaverse.pdf"
     },
     {
       "icon": "fa fa-times-circle",
-      "name": "Close Class: Metaverse 3D Design",
+      "name": "Close Class: Language Database",
       "date": "5 Dec 2022, 16x online",
       "time": "00.00",
-      "text": "We will model an extraordinary 3D fantasy land in this academy with you. We will get to know the Blender 3D program, and then we will make perfect models. This course is an excellent resource for anyone who loves to learn and wants to improve their 3D modelling field."
+      "text": "Databases are essential for many individuals and companies, providing a practical way to organize and store information on a computer. In programming, developers use database languages to maintain and monitor an electronic database and its management system."
     },
     {
       "icon": "fa fa-times-circle",
