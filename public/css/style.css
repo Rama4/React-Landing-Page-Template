@@ -232,12 +232,12 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  color: white;
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 900;
   line-height: 30px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 15px;
 }
 header .intro-text {
   padding-top: 350px;

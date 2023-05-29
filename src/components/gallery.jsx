@@ -7,7 +7,7 @@ export const Gallery = (props) => {
         <div className='section-title'>
           <h2>Our Partners</h2>
           <p>
-          We still have several other Partners.
+          Here are our biggest event partners. <a href="#about">Click here</a> to view all.
           </p>
         </div>
         <div className='row'>
