@@ -15,7 +15,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
+          <a className='navbar-brand page-scroll' href='/'>
             Maricopa County
           </a>{' '}
         </div>
@@ -26,7 +26,7 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
+              <a href='/events' className='page-scroll'>
                 Events
               </a>
             </li>
@@ -41,8 +41,8 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#portfolio' className='page-scroll'>
-              Event Venues
+              <a href='/addEvent' className='page-scroll'>
+              Add Event
               </a>
             </li>
             <li>
