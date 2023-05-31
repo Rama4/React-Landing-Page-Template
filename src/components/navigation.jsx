@@ -30,6 +30,19 @@ export const Navigation = (props) => {
                 Our Partners
               </a>
             </li>
+            <li class="dropdown">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vendors<b class="caret"></b></a>
+	            <ul class="dropdown-menu multi-column columns-3">
+		            <div class="row">
+			            <div class="col-sm-12">
+				            <ul class="multi-column-dropdown">
+					            <li><a href="/addVendor">Add Vendor</a></li>
+					            <li><a href="/vendors">View all Vendors</a></li>
+				            </ul>
+			            </div>
+		            </div>
+	            </ul>
+	        </li>
             <li>
               <a href='/#services' className='page-scroll'>
                 Business Community
@@ -52,22 +65,20 @@ export const Navigation = (props) => {
 				            <ul class="multi-column-dropdown">
 					            <li><a href="/1">Easter Egg Hunt</a></li>
 					            <li><a href="/2">Kids to Park Day</a></li>
-					            <li><a href="/3">Flower and Garden Festival</a></li>
-					            <li><a href="/4">Memorial Day Ceremony</a></li>
+					            <li><a href="/3">Memorial Day Ceremony</a></li>
+					            <li><a href="/4">Summer JAMS</a></li>
 				            </ul>
 			            </div>
 			            <div class="col-sm-4">
 				            <ul class="multi-column-dropdown">
-					            <li><a href="#">Fine Arts & Crafts Shows</a></li>
-					            <li><a href="#">Leesburg airshow</a></li>
-					            <li><a href="#">Freeze your Gizzard</a></li>
-					            <li class="divider"></li>
-					            <li><a href="#">September 11 Observance</a></li>
+					            <li><a href="/5">Independence Day Celebration</a></li>
+					            <li><a href="/6">Spring Bling, a Hometown Fine Arts & Crafts Show</a></li>
 				            </ul>
 			            </div>
 		            </div>
 	            </ul>
 	        </li>
+
             {/* <li>
               <a href='#testimonials' className='page-scroll'>
                 Testimonials

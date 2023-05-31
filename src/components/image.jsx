@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 
-export const Image = ({id,name,smallImage}) => {
+export const Image = ({id,name,url}) => {
 
 
   return (
@@ -16,7 +16,7 @@ export const Image = ({id,name,smallImage}) => {
             <h4>{name}</h4>
           </div>
           <img
-            src={smallImage}
+            src={url}
             className='img-responsive'
             alt={name}
           />{' '}

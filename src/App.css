@@ -93,7 +93,16 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  /* margin-top: 100px; */
+}
+
+
+/* Add event / Add vendor */
+
+.vendorForm {
+  width: 500px;
+  min-width: 400px;
+  max-width: 600px;
 }
 
 
@@ -129,14 +138,6 @@ label {
 }
 
 
-/* event details component */
-
-
-.eventDetailImage {
-  max-height: 500px;
-  max-width: 500px;
-}
-
 /* events component */
 
 
@@ -152,7 +153,7 @@ img{
 }
 a.thumbnail, a.thumbnail:hover {
  text-decoration: none;
-
+ border: none;
 }
 
 .project-item {
@@ -188,16 +189,21 @@ p.project-item.event-card-title:hover  {
  object-position: center;
 }
 .project-item:hover {
- background: #393E46;
+ background: #005b38;
  color:#eeeeee;
  text-decoration: none;
 }
 
 
 /* navbar */
-
+/* .dropdown-toggle:active{
+  background-color: #005b38;
+  color: white;
+} */
 .dropdown-menu {
 	min-width: 200px;
+  background-color: #005b38;
+  color: white;
 }
 .dropdown-menu.columns-2 {
 	min-width: 400px;
@@ -219,16 +225,14 @@ p.project-item.event-card-title:hover  {
 	clear: both;
 	line-height: 1.428571429;
 	white-space: normal;
-	/* color: #333; */
-  color: #393E46;
-  /* background: #eeeeee; */
+  text-decoration: none;
+  color: white;
+  background: #005b38;
 }
 .multi-column-dropdown li a:hover {
 	text-decoration: none;
-	/* color: #262626;
-	background-color: #999; */
-  background: #393E46;
-  color:#eeeeee;
+  background: white;
+  color:#005b38;
  
 }
  
@@ -238,3 +242,46 @@ p.project-item.event-card-title:hover  {
 		overflow-x: hidden;
 	}
 }
+
+/* event details component */
+
+
+.eventDetailImage {
+  /* height: 500px;
+  width: 500px; */
+  max-height: 500px;
+  max-width: 500px;
+}
+
+#eventDetailContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+}
+
+#leftColumn {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* width: 30%; */
+  /* max-width: 400px; */
+}
+
+#rightColumn {
+  display: flex;
+  padding-top: 30px;
+  flex: 1;
+  /* flex-shrink: 1; */
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: ; */
+  min-height: 300px;
+  /* width: 50%; */
+  /* min-width: 400px; */
+}
+
+

@@ -5,21 +5,22 @@ import { useNavigate } from "react-router-dom";
 import JsonData from "../data/data.json";
 
 
-const Events = () => {
+const Vendors = () => {
   const navigate = useNavigate();
   const [landingPageData, setLandingPageData] = useState([]);
   
 
   useEffect(()=>{
-    let eventDetails = JsonData.Events;
+    let eventDetails = JsonData.Vendors;
     setLandingPageData(eventDetails);
     console.log(eventDetails);
+
   },[]);
 
   return (
     <div className="col-md-12 signup-form">
 			<div class="container">
-				<h2>Events</h2>
+				<h2>Vendors</h2>
 				<div id= "projects_grid" class="row">
           {
             landingPageData.map(e => {
@@ -36,4 +37,4 @@ const Events = () => {
   );
 };
 
-export default Events;
+export default Vendors;

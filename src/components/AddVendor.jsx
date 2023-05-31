@@ -1,22 +1,12 @@
 import React, { useState, useEffect } from "react";
-// import { useDispatch, useSelector } from "react-redux";
 import { Formik, Field, Form, ErrorMessage } from "formik";
-import * as Yup from "yup";
 import Calendar from 'react-calendar';
 import "../App.css";
 import Select from 'react-select';
 import 'react-calendar/dist/Calendar.css';
 import { useNavigate } from "react-router-dom";
-// import '../css/bootstrap.min.css';
-// import '../css/style.css';
 
-
-
-// import { register } from "../slices/auth";
-// import { clearMessage } from "../slices/message";
-
-
-const AddEvent = () => {
+const AddVendor = () => {
   const [successful, setSuccessful] = useState(false);
   const [message, setMessage] = useState("");
   const [eventDate, setEventDate] = useState(new Date());
@@ -24,7 +14,6 @@ const AddEvent = () => {
   const [eventKind, setEventKind] = useState("");
   const [eventFrequency, setEventFrequency] = useState("");
   const navigate = useNavigate();
-
 
 
   const initialValues = {
@@ -83,9 +72,14 @@ const AddEvent = () => {
   };
 
   return (
+
     <div className="col-md-12 signup-form">
       <div className="card card-container vendorForm">
-        <h4>Add Event</h4>
+      <h4>Add Vendor</h4>
+      <p>
+      The City events department accepts vendors on a per-event basis.  Applications are sent out prior to each event and vendors are accepted on a first come, first serve basis.  The City events department reserves the right to refuse any vendor at any time for any reason. Please check the individual event page on this website for current applications. 
+      To become a food vendor with the City events department you must submit a food vendor application and supporting documentation once and then apply for each individual event.  Food vendor application must be submitted complete with all supporting documentation to be accepted. 
+      </p>        
         <Formik
           initialValues={initialValues}
           // validationSchema={validationSchema}
@@ -94,7 +88,7 @@ const AddEvent = () => {
           <Form>
               <div>
                 <div className="form-group">
-                  <label htmlFor="username">Event Name</label>
+                  <label htmlFor="username">Vendor Name</label>
                   <Field name="name" type="text" className="form-control" />
                   <ErrorMessage
                     name="name"
@@ -104,38 +98,37 @@ const AddEvent = () => {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="eventtype">Event Type</label>
-                  <Select
-                    defaultValue={eventType}
-                    onChange={setEventType}
-                    options={event_type_list}
+                  <label htmlFor="username">Vendor Description</label>
+                  <Field name="text" type="text" className="form-control" />
+                  <ErrorMessage
+                    name="text"
+                    component="div"
+                    className="alert alert-danger"
                   />
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="eventtype">Event Kind</label>
-                  <Select
-                    defaultValue={eventKind}
-                    onChange={setEventKind}
-                    options={event_kind_list}
+                  <label htmlFor="eventtype">Vendor Phone</label>
+                  <Field name="phone" type="text" className="form-control" />
+                  <ErrorMessage
+                    name="phone"
+                    component="div"
+                    className="alert alert-danger"
                   />
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="eventtype">Event Frequency</label>
-                  <Select
-                    defaultValue={eventFrequency}
-                    onChange={setEventFrequency}
-                    options={event_frequency_list}
+                  <label htmlFor="eventtype">Vendor website link</label>
+                  <Field name="url" type="text" className="form-control" />
+                  <ErrorMessage
+                    name="url"
+                    component="div"
+                    className="alert alert-danger"
                   />
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="date">Date</label>
-                  <Calendar onChange={onDateChange} value={eventDate} />
-                </div>
-                <div className="form-group">
-                  <button type="submit" className="btn btn-primary btn-block">Add Event</button>
+                  <button type="submit" className="btn btn-primary btn-block">Add Vendor</button>
                 </div>
               </div>
           </Form>
@@ -157,4 +150,4 @@ const AddEvent = () => {
   );
 };
 
-export default AddEvent;
+export default AddVendor;

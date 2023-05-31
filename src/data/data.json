@@ -32,135 +32,99 @@
       "VPN Service"
     ]
   },
-  "Gallery": [{
-    "title" : "Event 1",
-    "largeImage" : "",
-    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-112.jpg"
-    },
-    {
-    "title" : "Event 2",
-    "largeImage" : "",
-    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-148.jpg"
-    },
-    {
-    "title" : "Event 3",
-    "largeImage" : "",
-    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-151.jpg"
-    },
-    {
-    "title" : "Event 4",
-    "largeImage" : "",
-    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-155.jpg"
-    },
-    {
-    "title" : "Event 5",
-    "largeImage" : "",
-    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-180.jpg"
-    },
-    {
-    "title" : "Event 6",
-    "largeImage" : "",
-    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/10/leesburg-virginia-visitors.jpeg"
-    },
-    {
-    "title" : "Event 7",
-    "largeImage" : "",
-    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/loudon-marketplace.jpg"
-    },
-    {
-    "title" : "Event 8",
-    "largeImage" : "",
-    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/10/leesburg-virginia-visitors.jpeg"
-    },
-    {
-    "title" : "Event 10",
-    "largeImage" : "",
-    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/09/acoustic-on-the-green.jpg"
-    }
-    ],
-  "Services": [
+  "Events": [
     {
       "id" : "1",
       "icon": "fa fa-calendar",
-      "name": "Open Class: Microservice Architecture for Business",
-      "date": "2 Jan 2023, 21x online",
-      "time": "7.00PM - 10.00PM",
-      "text": "Microservice as the word suggests the word 'Micro' means small and the word 'Service' means modular service that runs a process and lightweight mechanism to serve a certain goal.",
-      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-112.jpg",
+      "name" : "Easter Egg Hunt",
+      "date": "April 1, 2023",
+      "time": "12:00pm - 3:00pm",
+      "text": "The hunt is on for Easter eggs at Ida Lee Park!  Participants can hop along the bunny trail to the hunt area.  Each child will hunt for empty Easter eggs and receive a treat bag at the conclusion of the hunt.  The Easter Bunny will also be on-site for socially distanced pictures.  All participants may enter the hunt area at their scheduled time.  It's sure to be a time honored egg-cellent event.  There will be no day-of registration.",
+      "url": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-112.jpg",
       "download": "img/flyer/Flyer-Microservice.pdf"
     },
     {
       "id" : "2",
       "icon": "fa fa-calendar",
-      "name": "Open Class: Metaverse 3D Design",
+      "name": "Kids to Parks Day",
       "date": "16 Jan 2023, 16x online",
       "time": "9.00AM - 12.00AM",
-      "text": "We will model an extraordinary 3D fantasy land in this academy with you. We will get to know the Blender 3D program, and then we will make perfect models. This course is an excellent resource for anyone who loves to learn and wants to improve their 3D modelling field.",
-      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-148.jpg",
+      "text": "In recognition of the 13th Anniversary of Kids to Parks Day on May 19, Leesburg Parks and Recreation invites you to join us for a walk, scavenger hunt, and/or fitness station challenge through our flagship Ida Lee Park.  This guided outing for kids will take you from one side of the park to the other and highlight some of the things we love most about Ida Lee",
+      "url": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-148.jpg",
       "download": "img/flyer/Flyer-Metaverse.pdf"
     },
     {
       "id" : "3",
       "icon": "fa fa-times-circle",
-      "name": "Close Class: Language Database",
-      "date": "5 Dec 2022, 14x online",
-      "time": "00.00",
-      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/10/leesburg-virginia-visitors.jpeg",
-      "text": "Databases are essential for many individuals and companies, providing a practical way to organize and store information on a computer. In programming, developers use database languages to maintain and monitor an electronic database and its management system."
+      "name": "Memorial Day Observance",
+      "date": "May 29, 2023",
+      "time": "10:00 am",
+      "url": "https://chooseleesburg.com/wp-content/uploads/2022/10/leesburg-virginia-visitors.jpeg",
+      "text": "This annual observance will commemorate those who have lost their lives in battle serving the United States, as well as recognize the brave military men and women who serve our country. This ceremony is hosted my Leesburg Mayor Kelly Burk and includes the reverent laying of the wreaths at several war memorials.  This year we are pleased to welcome U.S. Army Lieutenant Colonel (Ret.) Dr. Robert C. Holcomb as our guest speaker."
     },
     {
       "id" : "4",
       "icon": "fa fa-times-circle",
-      "name": "Close Class: Digital Marketing",
-      "date": "7 Nov 2022, 18x online",
-      "time": "00.00",
-      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/09/acoustic-on-the-green.jpg",
-      "text": "Digital Marketing Program prepares students to maximize marketing through digital platforms, such as social media, websites, etc. In this class, you will be encouraged to explore the principles of digital marketing and projects using digital media according to the trends and needs of the target."
+      "name": "Summer JAMS",
+      "date": "7 Nov 2022",
+      "time": "10:00 am",
+      "url": "https://chooseleesburg.com/wp-content/uploads/2022/09/acoustic-on-the-green.jpg",
+      "text": "Don’t miss Downtown Leesburg’s popular summer concert series, held every Saturday from June through August. This is a FREE concert series; no admission or ticket needed.  Bring your lawn chair or blanket with you and picnics are encouraged! No smoking, alcoholic beverages or pets will be allowed . If you have your pet with you, we ask that you remain on the sidewalk."
     },
     {
       "id" : "5",
       "icon": "fa fa-times-circle",
-      "name": "Close Class: Data Analytics",
-      "date": "17 Oct 2022, 10x online",
-      "time": "00.00",
-      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/loudon-marketplace.jpg",
-      "text": "The student will be introduced to the foundation of understanding and applying algorithms in programming, data structure, and the concept of objects."
+      "name": "Independence Day Celebration",
+      "date": "17 Oct 2023",
+      "time": "10:00 am",
+      "url": "https://chooseleesburg.com/wp-content/uploads/2022/11/loudon-marketplace.jpg",
+      "text": "The student will be introduced to the foundation of understanding and applying algorithms in programming, data structure, and the concept of objects. King Street will close to through-traffic at 9:30 am in preparation for the parade. Downtown streets will re-open at approximately 11:30 am."
     },
     {
       "id" : "6",
       "icon": "fa fa-times-circle",
-      "name": "Close Class: Business Development",
-      "date": "3 Oct 2022, 12x online",
-      "time": "00.00",
-      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/10/leesburg-virginia-visitors.jpeg",
-      "text": "The entrepreneurship development program aims to foster and assist students who already have a business or are just starting a business so that their company develops and is sustainable. Students' business development and sustainability are highly expected because students have carried out many companies with exciting ideas and creativity."
+      "name": "Spring Bling, a Hometown Fine Arts & Crafts Show",
+      "date": "18 Oct 2023",
+      "time": "10:00 am",
+      "url": "https://chooseleesburg.com/wp-content/uploads/2022/11/loudon-marketplace.jpg",
+      "text": "The Spring Bling brings you the most current trends in fashion accessories and home décor, all handcrafted by one of the many talented artisans featured at the show.  You will find the latest designs in jewelry, handbags, scarves, pottery, candles, bath and body items, fine art, wood crafts and textiles, making this the perfect place to find a unique piece that is all you!  Shop for beautifully handcrafted, one-of-a-kind gifts for Easter, Mother's Day and graduations!  Event opens at 9:00 am and runs until 4:00 pm.  Admission is free to the public."
+    }
+  ],
+  "Vendors": [
+    {
+      "id": "101",
+      "name": "Orlando Food Services",
+      "text" : "we provide food for events in and around orlando.",
+      "phone" : "602-506-3011",
+      "url" : "https://www.leesburgva.gov/home/showpublishedimage/20367/638197582992470000"
     },
     {
-      "id" : "7",
-      "icon": "fa fa-times-circle",
-      "name": "Close Class: Digital Marketing",
-      "date": "7 Nov 2022, 18x online",
-      "time": "00.00",
-      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-180.jpg",
-      "text": "Digital Marketing Program prepares students to maximize marketing through digital platforms, such as social media, websites, etc. In this class, you will be encouraged to explore the principles of digital marketing and projects using digital media according to the trends and needs of the target."
+      "id": "102",
+      "name": "Leesburg Food Services",
+      "text" : "we provide food for events in and around Leesburg.",
+      "phone" : "602-506-3011",
+      "url" : "https://www.leesburgva.gov/home/showpublishedimage/20367/638197582992470000"
     },
     {
-      "id" : "8",
-      "icon": "fa fa-times-circle",
-      "name": "Close Class: Data Analytics",
-      "date": "17 Oct 2022, 10x online",
-      "time": "00.00",
-      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-155.jpg",
-      "text": "The student will be introduced to the foundation of understanding and applying algorithms in programming, data structure, and the concept of objects."
+      "id": "103",
+      "name": "Phoenix Food Services",
+      "text" : "we provide food for events in and around Phoenix.",
+      "phone" : "602-506-3011",
+      "url" : "https://www.leesburgva.gov/home/showpublishedimage/20367/638197582992470000"
     },
     {
-      "id" : "9",
-      "icon": "fa fa-times-circle",
-      "name": "Close Class: Business Development",
-      "date": "3 Oct 2022, 12x online",
-      "time": "00.00",
-      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-151.jpg",
-      "text": "The entrepreneurship development program aims to foster and assist students who already have a business or are just starting a business so that their company develops and is sustainable. Students' business development and sustainability are highly expected because students have carried out many companies with exciting ideas and creativity."
+      "id": "104",
+      "name": "L.A. Food Services",
+      "text" : "we provide food for events in and around L.A..",
+      "phone" : "602-506-3011",
+      "url" : "https://www.leesburgva.gov/home/showpublishedimage/20367/638197582992470000"
+    },
+    {
+      "id": "105",
+      "name": "New York Food Services",
+      "text" : "we provide food for events in and around New York",
+      "phone" : "602-506-3011",
+      "url" : "https://www.leesburgva.gov/home/showpublishedimage/20367/638197582992470000"
     }
   ],
   "Testimonials": [
