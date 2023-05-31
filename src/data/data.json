@@ -32,96 +32,134 @@
       "VPN Service"
     ]
   },
-  "Gallery": [
-    {
-      "title": "Azure",
-      "largeImage": "",
-      "smallImage": "img/icon/azure.png"
+  "Gallery": [{
+    "title" : "Event 1",
+    "largeImage" : "",
+    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-112.jpg"
     },
     {
-      "title": "AWS",
-      "largeImage": "",
-      "smallImage": "img/icon/aws.png"
+    "title" : "Event 2",
+    "largeImage" : "",
+    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-148.jpg"
     },
     {
-      "title": "GCP",
-      "largeImage": "",
-      "smallImage": "img/icon/google.png"
+    "title" : "Event 3",
+    "largeImage" : "",
+    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-151.jpg"
     },
     {
-      "title": "VM-Ware",
-      "largeImage": "",
-      "smallImage": "img/icon/vmware.png"
+    "title" : "Event 4",
+    "largeImage" : "",
+    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-155.jpg"
     },
     {
-      "title": "Lenovo",
-      "largeImage": "",
-      "smallImage": "img/icon/lenovo.png"
+    "title" : "Event 5",
+    "largeImage" : "",
+    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-180.jpg"
     },
     {
-      "title": "RedHat",
-      "largeImage": "",
-      "smallImage": "img/icon/red.png"
+    "title" : "Event 6",
+    "largeImage" : "",
+    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/10/leesburg-virginia-visitors.jpeg"
     },
     {
-      "title": "Mikrotik",
-      "largeImage": "",
-      "smallImage": "img/icon/mikro.png"
+    "title" : "Event 7",
+    "largeImage" : "",
+    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/loudon-marketplace.jpg"
     },
     {
-      "title": "Fortinet",
-      "largeImage": "",
-      "smallImage": "img/icon/fortinet.png"
+    "title" : "Event 8",
+    "largeImage" : "",
+    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/10/leesburg-virginia-visitors.jpeg"
     },
     {
-      "title": "Cisco",
-      "largeImage": "",
-      "smallImage": "img/icon/cisco.png"
+    "title" : "Event 10",
+    "largeImage" : "",
+    "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/09/acoustic-on-the-green.jpg"
     }
-  ],
+    ],
   "Services": [
     {
+      "id" : "1",
       "icon": "fa fa-calendar",
       "name": "Open Class: Microservice Architecture for Business",
       "date": "2 Jan 2023, 21x online",
       "time": "7.00PM - 10.00PM",
       "text": "Microservice as the word suggests the word 'Micro' means small and the word 'Service' means modular service that runs a process and lightweight mechanism to serve a certain goal.",
+      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-112.jpg",
       "download": "img/flyer/Flyer-Microservice.pdf"
     },
     {
+      "id" : "2",
       "icon": "fa fa-calendar",
       "name": "Open Class: Metaverse 3D Design",
       "date": "16 Jan 2023, 16x online",
       "time": "9.00AM - 12.00AM",
       "text": "We will model an extraordinary 3D fantasy land in this academy with you. We will get to know the Blender 3D program, and then we will make perfect models. This course is an excellent resource for anyone who loves to learn and wants to improve their 3D modelling field.",
+      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-148.jpg",
       "download": "img/flyer/Flyer-Metaverse.pdf"
     },
     {
+      "id" : "3",
       "icon": "fa fa-times-circle",
       "name": "Close Class: Language Database",
       "date": "5 Dec 2022, 14x online",
       "time": "00.00",
+      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/10/leesburg-virginia-visitors.jpeg",
       "text": "Databases are essential for many individuals and companies, providing a practical way to organize and store information on a computer. In programming, developers use database languages to maintain and monitor an electronic database and its management system."
     },
     {
+      "id" : "4",
       "icon": "fa fa-times-circle",
       "name": "Close Class: Digital Marketing",
       "date": "7 Nov 2022, 18x online",
       "time": "00.00",
+      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/09/acoustic-on-the-green.jpg",
       "text": "Digital Marketing Program prepares students to maximize marketing through digital platforms, such as social media, websites, etc. In this class, you will be encouraged to explore the principles of digital marketing and projects using digital media according to the trends and needs of the target."
     },
     {
+      "id" : "5",
       "icon": "fa fa-times-circle",
       "name": "Close Class: Data Analytics",
       "date": "17 Oct 2022, 10x online",
       "time": "00.00",
+      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/loudon-marketplace.jpg",
       "text": "The student will be introduced to the foundation of understanding and applying algorithms in programming, data structure, and the concept of objects."
     },
     {
+      "id" : "6",
       "icon": "fa fa-times-circle",
       "name": "Close Class: Business Development",
       "date": "3 Oct 2022, 12x online",
       "time": "00.00",
+      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/10/leesburg-virginia-visitors.jpeg",
+      "text": "The entrepreneurship development program aims to foster and assist students who already have a business or are just starting a business so that their company develops and is sustainable. Students' business development and sustainability are highly expected because students have carried out many companies with exciting ideas and creativity."
+    },
+    {
+      "id" : "7",
+      "icon": "fa fa-times-circle",
+      "name": "Close Class: Digital Marketing",
+      "date": "7 Nov 2022, 18x online",
+      "time": "00.00",
+      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-180.jpg",
+      "text": "Digital Marketing Program prepares students to maximize marketing through digital platforms, such as social media, websites, etc. In this class, you will be encouraged to explore the principles of digital marketing and projects using digital media according to the trends and needs of the target."
+    },
+    {
+      "id" : "8",
+      "icon": "fa fa-times-circle",
+      "name": "Close Class: Data Analytics",
+      "date": "17 Oct 2022, 10x online",
+      "time": "00.00",
+      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-155.jpg",
+      "text": "The student will be introduced to the foundation of understanding and applying algorithms in programming, data structure, and the concept of objects."
+    },
+    {
+      "id" : "9",
+      "icon": "fa fa-times-circle",
+      "name": "Close Class: Business Development",
+      "date": "3 Oct 2022, 12x online",
+      "time": "00.00",
+      "smallImage": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-151.jpg",
       "text": "The entrepreneurship development program aims to foster and assist students who already have a business or are just starting a business so that their company develops and is sustainable. Students' business development and sustainability are highly expected because students have carried out many companies with exciting ideas and creativity."
     }
   ],

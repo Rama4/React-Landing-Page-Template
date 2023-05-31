@@ -129,6 +129,14 @@ label {
 }
 
 
+/* event details component */
+
+
+.eventDetailImage {
+  max-height: 500px;
+  max-width: 500px;
+}
+
 /* events component */
 
 
@@ -142,19 +150,17 @@ img{
  align-items: center;
  height: 100%;
 }
-a.thumbnail:hover {
+a.thumbnail, a.thumbnail:hover {
  text-decoration: none;
 
-}
-a.thumbnail{
- text-decoration: none;	
 }
 
 .project-item {
  color: #393E46;
  background: #eeeeee;
  text-decoration: none;
- min-width: 500px;
+ min-width: 300px;
+ max-width: 300px;
  width: 33%;
  padding: 20px;
  height: 100%;
@@ -162,16 +168,73 @@ a.thumbnail{
  margin-top: 30px;
  display: flex;
  flex-direction: column;
- justify-content: space-between;
+ justify-content: space-around;
  align-items: center;
+}
+p.project-item.event-card-title {
+  color: #393E46;
+  background: #eeeeee;
+}
+p.project-item.event-card-title:hover  {
+  background: #393E46;
+  color:#eeeeee;
 }
 .project-item > img {
  width: 100%;
  padding-top: 20px;
  padding-bottom: 20px;
+ height: 100%;
+ object-fit: contain;
+ object-position: center;
 }
 .project-item:hover {
  background: #393E46;
  color:#eeeeee;
  text-decoration: none;
+}
+
+
+/* navbar */
+
+.dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	white-space: normal;
+	/* color: #333; */
+  color: #393E46;
+  /* background: #eeeeee; */
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	/* color: #262626;
+	background-color: #999; */
+  background: #393E46;
+  color:#eeeeee;
+ 
+}
+ 
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
 }

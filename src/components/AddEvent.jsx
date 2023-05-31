@@ -7,6 +7,8 @@ import "../App.css";
 import Select from 'react-select';
 import 'react-calendar/dist/Calendar.css';
 import { useNavigate } from "react-router-dom";
+// import '../css/bootstrap.min.css';
+// import '../css/style.css';
 
 
 

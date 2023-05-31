@@ -1,23 +1,27 @@
-export const Image = ({ title, largeImage, smallImage }) => {
+import { useEffect } from "react"
+
+export const Image = ({id,name,smallImage}) => {
+
+
   return (
     <div className='portfolio-item'>
       <div className='hover-bg'>
         {' '}
         <a
-          href={largeImage}
-          title={title}
+          href={id}
+          title={name}
           data-lightbox-gallery='gallery1'
         >
           <div className='hover-text'>
-            <h4>{title}</h4>
+            <h4>{name}</h4>
           </div>
           <img
             src={smallImage}
             className='img-responsive'
-            alt={title}
+            alt={name}
           />{' '}
         </a>{' '}
       </div>
     </div>
-  )
+  );
 }

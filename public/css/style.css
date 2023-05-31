@@ -354,9 +354,19 @@ header .intro-text {
 #portfolio {
   padding: 100px 0;
 }
-.portfolio-item {
-  margin: 1px -15px 0 -14px;
+.portfolio-items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
   padding: 0;
+  
+}
+.portfolio-item {
+  /* flex: 1; */
+  flex: 33.33%;
+  margin: 1px -15px 0 -14px;
+  padding: 10px;
 }
 .portfolio-item .hover-bg {
   overflow: hidden;
