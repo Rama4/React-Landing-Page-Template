@@ -26,7 +26,7 @@ const EventDetails = () => {
     <div className="row" id="eventDetailContainer">
       <div id="leftColumn">
         <h3>{landingPageData.name}</h3>
-        {landingPageData.url && <img className="eventDetailImage" src={landingPageData?.url} ></img>}
+        {landingPageData.imageurl && <img className="eventDetailImage" src={landingPageData?.imageurl} ></img>}
       </div>
       <div className="container" id="rightColumn">
           <div>

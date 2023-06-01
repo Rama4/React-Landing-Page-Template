@@ -40,7 +40,7 @@
       "date": "April 1, 2023",
       "time": "12:00pm - 3:00pm",
       "text": "The hunt is on for Easter eggs at Ida Lee Park!  Participants can hop along the bunny trail to the hunt area.  Each child will hunt for empty Easter eggs and receive a treat bag at the conclusion of the hunt.  The Easter Bunny will also be on-site for socially distanced pictures.  All participants may enter the hunt area at their scheduled time.  It's sure to be a time honored egg-cellent event.  There will be no day-of registration.",
-      "url": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-112.jpg",
+      "imageurl": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-112.jpg",
       "download": "img/flyer/Flyer-Microservice.pdf"
     },
     {
@@ -50,7 +50,7 @@
       "date": "16 Jan 2023, 16x online",
       "time": "9.00AM - 12.00AM",
       "text": "In recognition of the 13th Anniversary of Kids to Parks Day on May 19, Leesburg Parks and Recreation invites you to join us for a walk, scavenger hunt, and/or fitness station challenge through our flagship Ida Lee Park.  This guided outing for kids will take you from one side of the park to the other and highlight some of the things we love most about Ida Lee",
-      "url": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-148.jpg",
+      "imageurl": "https://chooseleesburg.com/wp-content/uploads/2022/11/leesburg-airshow-148.jpg",
       "download": "img/flyer/Flyer-Metaverse.pdf"
     },
     {
@@ -59,7 +59,7 @@
       "name": "Memorial Day Observance",
       "date": "May 29, 2023",
       "time": "10:00 am",
-      "url": "https://chooseleesburg.com/wp-content/uploads/2022/10/leesburg-virginia-visitors.jpeg",
+      "imageurl": "https://chooseleesburg.com/wp-content/uploads/2022/10/leesburg-virginia-visitors.jpeg",
       "text": "This annual observance will commemorate those who have lost their lives in battle serving the United States, as well as recognize the brave military men and women who serve our country. This ceremony is hosted my Leesburg Mayor Kelly Burk and includes the reverent laying of the wreaths at several war memorials.  This year we are pleased to welcome U.S. Army Lieutenant Colonel (Ret.) Dr. Robert C. Holcomb as our guest speaker."
     },
     {
@@ -68,8 +68,8 @@
       "name": "Summer JAMS",
       "date": "7 Nov 2022",
       "time": "10:00 am",
-      "url": "https://chooseleesburg.com/wp-content/uploads/2022/09/acoustic-on-the-green.jpg",
-      "text": "Don’t miss Downtown Leesburg’s popular summer concert series, held every Saturday from June through August. This is a FREE concert series; no admission or ticket needed.  Bring your lawn chair or blanket with you and picnics are encouraged! No smoking, alcoholic beverages or pets will be allowed . If you have your pet with you, we ask that you remain on the sidewalk."
+      "imageurl": "https://chooseleesburg.com/wp-content/uploads/2022/09/acoustic-on-the-green.jpg",
+      "text": "Don't miss Downtown Leesburg's popular summer concert series, held every Saturday from June through August. This is a FREE concert series; no admission or ticket needed.  Bring your lawn chair or blanket with you and picnics are encouraged! No smoking, alcoholic beverages or pets will be allowed . If you have your pet with you, we ask that you remain on the sidewalk."
     },
     {
       "id" : "5",
@@ -77,7 +77,7 @@
       "name": "Independence Day Celebration",
       "date": "17 Oct 2023",
       "time": "10:00 am",
-      "url": "https://chooseleesburg.com/wp-content/uploads/2022/11/loudon-marketplace.jpg",
+      "imageurl": "https://chooseleesburg.com/wp-content/uploads/2022/11/loudon-marketplace.jpg",
       "text": "The student will be introduced to the foundation of understanding and applying algorithms in programming, data structure, and the concept of objects. King Street will close to through-traffic at 9:30 am in preparation for the parade. Downtown streets will re-open at approximately 11:30 am."
     },
     {
@@ -86,45 +86,50 @@
       "name": "Spring Bling, a Hometown Fine Arts & Crafts Show",
       "date": "18 Oct 2023",
       "time": "10:00 am",
-      "url": "https://chooseleesburg.com/wp-content/uploads/2022/11/loudon-marketplace.jpg",
+      "imageurl": "https://chooseleesburg.com/wp-content/uploads/2022/11/loudon-marketplace.jpg",
       "text": "The Spring Bling brings you the most current trends in fashion accessories and home décor, all handcrafted by one of the many talented artisans featured at the show.  You will find the latest designs in jewelry, handbags, scarves, pottery, candles, bath and body items, fine art, wood crafts and textiles, making this the perfect place to find a unique piece that is all you!  Shop for beautifully handcrafted, one-of-a-kind gifts for Easter, Mother's Day and graduations!  Event opens at 9:00 am and runs until 4:00 pm.  Admission is free to the public."
     }
   ],
   "Vendors": [
     {
       "id": "101",
-      "name": "Orlando Food Services",
-      "text" : "we provide food for events in and around orlando.",
-      "phone" : "602-506-3011",
-      "url" : "https://www.leesburgva.gov/home/showpublishedimage/20367/638197582992470000"
+      "name": "SHADY BROOK FARM",
+      "text" : "Shady Brook Farm is a 100+ year old family-run farm market, garden center & agritainment venue with top notch seasonal events, homegrown fruits & veggies, unique products, quality plants, deli & more. Come browse, shop, meet a friend, eat, join us for an event. We're proud of what we do and we think you'll enjoy yourself!",
+      "phone" : "(215) 968-1670",
+      "imageurl": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_pad,h_265,q_75,w_398/https://assets.simpleviewinc.com/simpleview/image/upload/crm/bucks/shady-1_B7C5BD16-5056-A36A-0BD95A50D2008686-b7c5bbb95056a36_b7c5c558-5056-a36a-0bfe31c978ce8244.jpg",
+      "url" : "https://shadybrookfarm.com/"
     },
     {
       "id": "102",
-      "name": "Leesburg Food Services",
-      "text" : "we provide food for events in and around Leesburg.",
+      "name": "A TO Z PARTY RENTAL",
+      "text" : "Whether you are planning a simple backyard party, an elegant wedding, bridal/baby shower, bar/bat mitzvah or other religious event, corporate event, commencement ceremony or even a simple dinner party, we are equipped to assist you in planning your event and providing the most suitable equipment for your needs.",
       "phone" : "602-506-3011",
-      "url" : "https://www.leesburgva.gov/home/showpublishedimage/20367/638197582992470000"
+      "imageurl": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_pad,h_265,q_75,w_398/https://assets.simpleviewinc.com/simpleview/image/upload/crm/bucks/FFB-Logo0_e92626e3-5056-a36a-0b04b9bfd1970fe5.jpg",
+      "url" : "https://www.atozpartyrental.net/"
     },
     {
       "id": "103",
-      "name": "Phoenix Food Services",
-      "text" : "we provide food for events in and around Phoenix.",
+      "name": "A-1 LIMOUSINE, INC",
+      "text" : "A-1 Limousine has over 200 luxury motor coaches, limousines, SUV's, shuttle buses, passenger vans and sedans to service you or your large group, corporate event or special occasions.",
       "phone" : "602-506-3011",
-      "url" : "https://www.leesburgva.gov/home/showpublishedimage/20367/638197582992470000"
+      "imageurl": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_pad,h_265,q_75,w_398/https://assets.simpleviewinc.com/simpleview/image/upload/crm/bucks/A1-Limousine_logo-fullColor-RGB-1-_DF00C640-4233-4DE6-B3D60711FDBBA1FB_a49c4cf7-08b9-483e-b5179f97ee2df4d1.jpg",
+      "url" : "https://a1limo.com/"
     },
     {
       "id": "104",
-      "name": "L.A. Food Services",
-      "text" : "we provide food for events in and around L.A..",
+      "name": "ADAMS PARTY RENTAL",
+      "text" : "Visit our showroom and speak with an Event Consultant to turn your vision into a reality. Whether you're planning a small backyard barbecue, a grand formal event, or a multiple tent festival, we have everything you could wish for at Adams Party Rental.",
       "phone" : "602-506-3011",
-      "url" : "https://www.leesburgva.gov/home/showpublishedimage/20367/638197582992470000"
+      "imageurl": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_pad,h_265,q_75,w_398/https://assets.simpleviewinc.com/simpleview/image/upload/crm/bucks/rsz_adams_logo0-2f069d325056a36_2f069e4e-5056-a36a-0b5a245c9b2b4bce.jpg",
+      "url" : "https://adamsrental.com/"
     },
     {
       "id": "105",
-      "name": "New York Food Services",
-      "text" : "we provide food for events in and around New York",
+      "name": "ALLIED LIMOUSINE",
+      "text" : "From the needs of the occasional leisure traveler to the demands of a weekly business traveler, Allied can provide service that is customized to meet your specific situation. We offer the right combination of quality, style, and cost so that your trip is as pleasurable and relaxing as possible.",
       "phone" : "602-506-3011",
-      "url" : "https://www.leesburgva.gov/home/showpublishedimage/20367/638197582992470000"
+      "imageurl" : "https://assets.simpleviewinc.com/simpleview/image/fetch/c_pad,h_265,q_75,w_398/https://assets.simpleviewinc.com/simpleview/image/upload/crm/bucks/Allied0-19aab2ba5056a36_19aab456-5056-a36a-0bfa38278ec069d5.jpg",
+      "url" : "https://www.alliedlimo.com/"
     }
   ],
   "Testimonials": [

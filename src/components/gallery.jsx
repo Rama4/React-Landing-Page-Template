@@ -19,7 +19,7 @@ export const Gallery = (props) => {
               ? props.data.map(d => {
                 return (
                   <div key={d.id} className='col-sm-6 col-md-4 col-lg-4'>
-                    <Image id={d.id} name={d.name} url={d.url}   />
+                    <Image id={d.id} name={d.name} url={d.imageurl}   />
                   </div>
                 );
             })

@@ -26,7 +26,7 @@ const Vendors = () => {
             landingPageData.map(e => {
               return (<a href={e.id} class="thumbnail col-md-3 col-sm-3 col-xs-12 project-item">
                   <p class="text-center event-card-title">{e.name}</p>
-                  <img src={e.url} alt="Rubik's Cube Solver" />
+                  <img src={e.imageurl} alt="Rubik's Cube Solver" />
                   <p class="text-center">{e.text}</p>
                 </a>);
             })            

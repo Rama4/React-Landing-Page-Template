@@ -25,11 +25,6 @@ export const Navigation = (props) => {
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
-            <li>
-              <a href='#about' className='page-scroll'>
-                Our Partners
-              </a>
-            </li>
             <li class="dropdown">
 	            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vendors<b class="caret"></b></a>
 	            <ul class="dropdown-menu multi-column columns-3">
@@ -44,7 +39,7 @@ export const Navigation = (props) => {
 	            </ul>
 	        </li>
             <li>
-              <a href='/#services' className='page-scroll'>
+              <a href='https://chooseleesburg.com/contact/#' className='page-scroll'>
                 Business Community
               </a>
             </li>
