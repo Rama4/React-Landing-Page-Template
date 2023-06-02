@@ -135,7 +135,7 @@ const AddEvent = () => {
                   <Calendar onChange={onDateChange} value={eventDate} />
                 </div>
                 <div className="form-group">
-                  <button type="submit" className="btn btn-primary btn-block">Add Event</button>
+                  <button type="submit" className="btn btn-block login-button">Add Event</button>
                 </div>
               </div>
           </Form>

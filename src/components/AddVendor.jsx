@@ -128,7 +128,7 @@ const AddVendor = () => {
                 </div>
 
                 <div className="form-group">
-                  <button type="submit" className="btn btn-primary btn-block">Add Vendor</button>
+                  <button type="submit" className="btn btn-block login-button">Add Vendor</button>
                 </div>
               </div>
           </Form>
