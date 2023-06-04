@@ -132,6 +132,116 @@
       "url" : "https://www.alliedlimo.com/"
     }
   ],
+  "Artists": [
+    {
+      "id":"A1",
+      "name": "Linkin Park",
+      "profilePic": "https://i.scdn.co/image/ab67616d0000b273e2f039481babe23658fc719a",
+      "genres": ["Rock", "Metal"],
+      "price": "$$",
+      "social": {
+        "facebook": "/",
+        "instagram": "https://www.instagram.com/linkinpark/",
+        "spotify": "/",
+        "youtube" : "https://www.youtube.com/linkinpark"
+      },
+      "description" : "",
+      "photos": [],
+      "songs": [],
+      "links": [],
+      "videos": []
+      },
+    {
+      "id":"A2",
+      "name": "Green Day",
+      "profilePic": "",
+      "genres": ["Punk", "Rock"],
+      "price": "$$",
+      "social": {
+        "facebook": "/",
+        "instagram": "https://www.instagram.com/greenday/",
+        "spotify": "/",
+        "youtube" : "https://www.youtube.com/channel/UCqC_GY2ZiENFz2pwL0cSfAw"
+      },
+      "description" : "",
+      "photos": [],
+      "songs": [],
+      "links": [],
+      "videos": []
+      },
+    {
+      "id":"A3",
+      "name": "Metallica",
+      "profilePic": "",
+      "genres": ["Rock", "Metal"],
+      "price": "$$",
+      "social": {
+        "facebook": "/",
+        "instagram": "https://www.instagram.com/metallica/",
+        "spotify": "/",
+        "youtube" : "https://www.youtube.com/@metallica"
+      },
+      "description" : "",
+      "photos": [],
+      "songs": [],
+      "links": [],
+      "videos": []
+      },
+    {
+      "id":"A4",
+      "name": "Tool",
+      "profilePic": "",
+      "genres": ["Metal", "Progressive Metal"],
+      "price": "$$$$",
+      "social": {
+        "facebook": "/",
+        "instagram": "https://www.instagram.com/toolmusic/",
+        "spotify": "/",
+        "youtube" : "https://www.youtube.com/channel/UC1wUo-29zS7m_Jp-U_xYcFQ"
+      },
+      "description" : "",
+      "photos": [],
+      "songs": [],
+      "links": [],
+      "videos": []
+      },
+    {
+      "id":"A5",
+      "name": "Taylor swift",
+      "profilePic": "",
+      "genres": ["Pop", "country"],
+      "price": "$$$$$",
+      "social": {
+        "facebook": "/",
+        "instagram": "https://www.instagram.com/taylorswift/",
+        "spotify": "/",
+        "youtube" : "https://www.youtube.com/@TaylorSwift"
+      },
+      "description" : "",
+      "photos": [],
+      "songs": [],
+      "links": [],
+      "videos": []
+      },
+    {
+      "id":"A6",
+      "name": "Eminem",
+      "profilePic": "",
+      "genres": ["Rap", "hip-hip"],
+      "price": "$$$",
+      "social": {
+        "facebook": "/",
+        "instagram": "https://www.instagram.com/eminem/",
+        "spotify": "/",
+        "youtube" : "https://www.youtube.com/@eminem"
+      },
+      "description" : "",
+      "photos": [],
+      "songs": [],
+      "links": [],
+      "videos": []
+      }
+  ],
   "Testimonials": [
     {
       "img": "",

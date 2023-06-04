@@ -10,6 +10,7 @@ import EventDetails from "./components/EventDetails";
 import Vendors from "./components/Vendors";
 import Login from './components/Login';
 import { useState } from 'react';
+import ArtistDetails from './components/ArtistDetails';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -35,7 +36,7 @@ const App = () => {
         <Route path='/vendors' element={< Vendors/>} />
         <Route path='/addEvent' element={< AddEvent/>} />
         <Route path='/addVendor' element={< AddVendor/>} />
-        <Route path='/:x' element={< EventDetails/>} />
+        <Route path='/:x' element={< ArtistDetails/>} />
       </Routes>
       {isShowLogin && <Login loginCallbackURL={loginCallbackURL}/>}
     </Router>
