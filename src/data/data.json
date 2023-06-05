@@ -145,7 +145,7 @@
         "spotify": "/",
         "youtube" : "https://www.youtube.com/linkinpark"
       },
-      "description" : "",
+      "description" : "Linkin Park is an American rock band from Agoura Hills, California. The band's current lineup comprises vocalist/rhythm guitarist/keyboardist Mike Shinoda, lead guitarist Brad Delson, bassist Dave Farrell, DJ/turntablist Joe Hahn and drummer Rob Bourdon, all of whom are founding members.",
       "photos": [],
       "songs": [],
       "links": [],
@@ -153,21 +153,21 @@
       },
     {
       "id":"A2",
-      "name": "Green Day",
-      "profilePic": "",
-      "genres": ["Punk", "Rock"],
+      "name": "Jason Masi",
+      "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc6DYqIBH8elpAAB5r5nnrC_XHaK6MQ8upReB4ryv5hQ&s",
+      "genres": ["Singer/songwriter", "Americana", "Folk"],
       "price": "$$",
       "social": {
-        "facebook": "/",
-        "instagram": "https://www.instagram.com/greenday/",
+        "facebook": "https://www.facebook.com/jasonmasimusic",
+        "instagram": "https://www.instagram.com/jasonmasishots/",
         "spotify": "/",
-        "youtube" : "https://www.youtube.com/channel/UCqC_GY2ZiENFz2pwL0cSfAw"
+        "youtube" : "https://www.youtube.com/user/MasiSongs"
       },
-      "description" : "",
-      "photos": [],
-      "songs": [],
-      "links": [],
-      "videos": []
+      "description" : "Jason Masi is an American/DC based singer-songwriter. He got his start with Richmond, VA based group, Jubeus, opening for acts like Blind Melon, Everclear, and SOJA and releasing two well received albums : Two Tone Circles (2004) and Natural Mood (2007), respectively.",
+      "photos": ["https://static.wixstatic.com/media/78dedb_a44eda3cf08a4f8dac80bafa25130611~mv2_d_2832_4256_s_4_2.jpg/v1/fill/w_243,h_365,al_c,q_80,usm_0.66_1.00_0.01/78dedb_a44eda3cf08a4f8dac80bafa25130611~mv2_d_2832_4256_s_4_2.jpg", "https://static.wixstatic.com/media/78dedb_a48b9d3d12fd4708959b8930f39813bc~mv2.jpeg/v1/fill/w_243,h_365,al_c,q_80,usm_0.66_1.00_0.01/78dedb_a48b9d3d12fd4708959b8930f39813bc~mv2.jpeg","https://static.wixstatic.com/media/78dedb_e68228b8fd0f4193b6f320be5fd07962~mv2.jpg/v1/fill/w_243,h_364,al_c,q_80,usm_0.66_1.00_0.01/78dedb_e68228b8fd0f4193b6f320be5fd07962~mv2.jpg","https://static.wixstatic.com/media/78dedb_3c6a132cc6f3429289fbb16ceb82a52f~mv2.jpg/v1/fill/w_243,h_364,al_c,q_80,usm_0.66_1.00_0.01/78dedb_3c6a132cc6f3429289fbb16ceb82a52f~mv2.jpg", "https://static.wixstatic.com/media/78dedb_115efefde3eb481587a38531d325628c~mv2.jpg/v1/fill/w_243,h_264,al_c,q_80,usm_0.66_1.00_0.01/78dedb_115efefde3eb481587a38531d325628c~mv2.jpg", "https://static.wixstatic.com/media/78dedb_b8fb9eea49184a9b8f79d4825cc63d1c~mv2.jpg/v1/fill/w_243,h_324,al_c,q_80,usm_0.66_1.00_0.01/78dedb_b8fb9eea49184a9b8f79d4825cc63d1c~mv2.jpg","https://static.wixstatic.com/media/78dedb_a44eda3cf08a4f8dac80bafa25130611~mv2_d_2832_4256_s_4_2.jpg/v1/fill/w_243,h_365,al_c,q_80,usm_0.66_1.00_0.01/78dedb_a44eda3cf08a4f8dac80bafa25130611~mv2_d_2832_4256_s_4_2.jpg", "https://static.wixstatic.com/media/78dedb_a48b9d3d12fd4708959b8930f39813bc~mv2.jpeg/v1/fill/w_243,h_365,al_c,q_80,usm_0.66_1.00_0.01/78dedb_a48b9d3d12fd4708959b8930f39813bc~mv2.jpeg","https://static.wixstatic.com/media/78dedb_e68228b8fd0f4193b6f320be5fd07962~mv2.jpg/v1/fill/w_243,h_364,al_c,q_80,usm_0.66_1.00_0.01/78dedb_e68228b8fd0f4193b6f320be5fd07962~mv2.jpg","https://static.wixstatic.com/media/78dedb_3c6a132cc6f3429289fbb16ceb82a52f~mv2.jpg/v1/fill/w_243,h_364,al_c,q_80,usm_0.66_1.00_0.01/78dedb_3c6a132cc6f3429289fbb16ceb82a52f~mv2.jpg", "https://static.wixstatic.com/media/78dedb_115efefde3eb481587a38531d325628c~mv2.jpg/v1/fill/w_243,h_264,al_c,q_80,usm_0.66_1.00_0.01/78dedb_115efefde3eb481587a38531d325628c~mv2.jpg", "https://static.wixstatic.com/media/78dedb_b8fb9eea49184a9b8f79d4825cc63d1c~mv2.jpg/v1/fill/w_243,h_324,al_c,q_80,usm_0.66_1.00_0.01/78dedb_b8fb9eea49184a9b8f79d4825cc63d1c~mv2.jpg"],
+      "songs": [{"description": "Just the Two of Us (Acoustic Live Series)", "url": "https://open.spotify.com/track/3n562GGtmxLcYAcRuwdMIB?si=9a42d2d25f844fc1"}, {"description": "That Summer", "url": "https://open.spotify.com/track/2ga9pu06AqIgcu0PPowJq9?si=665530728dda486a"}],
+      "links": [{"description": "Bio", "url": "https://www.jasonmasi.com/"}, {"description": "Discography", "url": "https://www.jasonmasi.com/music"}, {"description": "Shows", "url": "https://www.jasonmasi.com/shows"}],
+      "videos": ["SpR6y_40yF4", "P1CikU6KFM0"]
       },
     {
       "id":"A3",

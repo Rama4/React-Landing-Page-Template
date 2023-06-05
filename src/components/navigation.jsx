@@ -45,6 +45,21 @@ export const Navigation = ({doShowLogin}) => {
                 About
               </a>
             </li>
+            <li>
+              <a href='/eventorganizerwelcome' className='page-scroll'>
+                Event organizer profile
+              </a>
+            </li>
+            <li>
+              <a href='/eventbookingoffer' className='page-scroll'>
+                Offer 
+              </a>
+            </li>
+            <li>
+              <a href='/signup' className='page-scroll'>
+                Sign Up 
+              </a>
+            </li>
           </ul>
         </div>
       </div>
