@@ -1,24 +1,24 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
 import 'react-calendar/dist/Calendar.css';
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import JsonData from "../data/data.json";
 import {YoutubeIcon, InstagramIcon, SpotifyIcon, FacebookIcon, YoutubeEmbed, Button} from './shared';
 
 
 const ArtistDetails = () => {
   const {x} = useParams();
+  const navigate = useNavigate();
   const [landingPageData, setLandingPageData] = useState({});
   
   useEffect(()=>{
-    let details = {};
-    details = JsonData.Artists?.find(d => {return d.id === x;}) ?? null;
+    const details = JsonData.Artists?.find(d => {return d.id === x;}) ?? null;
     console.log(details);
     setLandingPageData(details);
   },[x]);
 
   const onMakeAnOfferPress = () => {
-    
+    navigate('/eventbookingoffer');
   }
 
   const renderGenres = () => {

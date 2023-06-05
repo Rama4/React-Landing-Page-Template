@@ -32,6 +32,70 @@
       "VPN Service"
     ]
   },
+  "Genres": [{
+    "id" : "genre1",
+    "name" : "Rock"
+},
+{
+    "id" : "genre2",
+    "name" : "Country"
+},
+{
+    "id" : "genre3",
+    "name" : "Americana/Folk"
+},
+{
+    "id" : "genre4",
+    "name" : "Dance"
+},
+{
+    "id" : "genre5",
+    "name" : "Pop/Top 40"
+},
+{
+    "id" : "genre6",
+    "name" : "Singer/Songwriter"
+},
+{
+    "id" : "genre7",
+    "name" : "R&B/Soul"
+},
+{
+    "id" : "genre8",
+    "name" : "Jazz"
+},
+{
+    "id" : "genre9",
+    "name" : "Classical"
+},
+{
+    "id" : "genre10",
+    "name" : "Rap/Hip-Hop"
+},
+{
+    "id" : "genre1",
+    "name" : "Alternative"
+},
+{
+    "id" : "genre11",
+    "name" : "Electronic/EDM"
+},
+{
+    "id" : "genre12",
+    "name" : "Reggae"
+},
+{
+    "id" : "genre13",
+    "name" : "Blues"
+},
+{
+    "id" : "genre14",
+    "name" : "International"
+},
+{
+    "id" : "genre15",
+    "name" : "Latin"
+}],
   "Events": [
     {
       "id" : "1",
@@ -171,8 +235,8 @@
       },
     {
       "id":"A3",
-      "name": "Metallica",
-      "profilePic": "",
+      "name" : "Juliana MacDowell",
+      "profilePic": "img/A3.jpg",
       "genres": ["Rock", "Metal"],
       "price": "$$",
       "social": {
@@ -181,7 +245,7 @@
         "spotify": "/",
         "youtube" : "https://www.youtube.com/@metallica"
       },
-      "description" : "",
+      "description" : "Jason Masi is an American/DC based singer-songwriter. He got his start with Jubeus, his college band, opening for acts like Blind Melon, Everclear",
       "photos": [],
       "songs": [],
       "links": [],
@@ -189,8 +253,8 @@
       },
     {
       "id":"A4",
-      "name": "Tool",
-      "profilePic": "",
+      "name" : "Todd Wright",
+      "profilePic": "img/A4.jpg",
       "genres": ["Metal", "Progressive Metal"],
       "price": "$$$$",
       "social": {
@@ -199,7 +263,7 @@
         "spotify": "/",
         "youtube" : "https://www.youtube.com/channel/UC1wUo-29zS7m_Jp-U_xYcFQ"
       },
-      "description" : "",
+      "description" : "Todd Wright is an American music composer, songwriter and producer from the Washington D.C. area. Todd has collaborated with artists such as...",
       "photos": [],
       "songs": [],
       "links": [],

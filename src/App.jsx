@@ -11,7 +11,8 @@ import Vendors from "./components/Vendors";
 import Login from './components/Login';
 import { useState } from 'react';
 import ArtistDetails from './components/ArtistDetails';
-import {EventOrganizerWelcome, EventBookingOffer, SignUp} from './screens';
+import {EventOrganizerWelcome, EventBookingOffer, SignUp, Booking} from './screens';
+import SearchResults from './components/SearchResults';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -33,6 +34,8 @@ const App = () => {
       <Navigation doShowLogin={doShowLogin} />
       <Routes>
         <Route path='/' element={< Home/>} />
+        <Route path='/booking' element={< Booking/>} />
+        <Route path='/search' element={< SearchResults/>} />
         <Route path='/signup' element={< SignUp/>} />
         <Route path='/events' element={< Events/>} />
         <Route path='/vendors' element={< Vendors/>} />

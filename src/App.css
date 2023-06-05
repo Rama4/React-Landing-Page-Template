@@ -280,20 +280,15 @@ p.project-item.event-card-title:hover  {
   justify-content: flex-start;
   align-items: flex-start;
   width: 50%;
-  /* max-width: 400px; */
 }
 
 .rightColumn {
   display: flex;
-  /* padding-top: 30px; */
   flex: 1;
-  /* flex-shrink: 1; */
   flex-direction: column;
   justify-content: space-around;
-  /* align-items: flex-start; */
   min-height: 300px;
   width: 50%;
-  /* min-width: 400px; */
 }
 
 
@@ -503,7 +498,7 @@ p.project-item.event-card-title:hover  {
 #photosContainer{
   display: flex;
   overflow-y: hidden;
-  overflow-x: scroll;
+  overflow-x: auto;
   /* width:100%; */
   flex-direction: row;
   /* justify-content: space-around; */
@@ -565,4 +560,64 @@ p.project-item.event-card-title:hover  {
   /* outline: 2px solid #DB408E; */
   /* margin-right: 40px; */
 }
+
+/* Search result */
+
+.searchResult {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.artistInfo {
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.profilePic {
+  height: 125px;
+  width: 125px;
+  max-width: 125px;
+  max-height: 125px;
+}
+
+/* booking */
+
+.bookingContainer{
+  display: flex;
+  flex:1;
+  flex-direction: row;
+}
+
+.bookingLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookingRight {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.genreCheckboxContainer {
+  display: flex;
+  flex-direction: row;
+  /* width: 50%;
+  max-width: 50%; */
+}
+.rightlist {
+  flex-direction: column;
+  width: 50%;
+  margin-left: 40px;
+}
+
+.leftlist {
+  flex-direction: column;
+  width: 50%;
+}
+
 

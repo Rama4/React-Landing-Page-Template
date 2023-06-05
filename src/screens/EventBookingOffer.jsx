@@ -30,28 +30,27 @@ const EventBookingOffer = () => {
     setUser(mockUser);
     setPerformers(mockPerformers);
     setVenues(mockVenues);
-    //   let details = {};
-    //   if(x >= 100) {
-    //     details = JsonData.Vendors?.find(d => {return d.id === x;}) ?? null;
-    //   }
-    //   else {
-    //     details = JsonData.Events?.find(d => {return d.id === x;}) ?? null;
-    //   }
-    //   console.log(details);
-    //   setLandingPageData(details);
     },[]);
 
     const onSubmitPress = () => {
       console.log("submit pressed");
     }
 
-    const renderInputField = (name, label, multiline=false) => {
+    const renderInputField = (name, label) => {
         return (
             <div className="bookInputRow">
-                <Textinput rows={7} cols={42} multiline={multiline} name={name}  / >
+                <Textinput name={name}  / >
                 <label id="bookInputLabel" htmlFor={name}>{label}</label>
             </div>
             );
+    }
+    const renderTextArea = (name, label) => {
+        return (
+          <div className="bookInputRow">
+              <Textinput rows={7} cols={42} multiline={true} name={name}  / >
+              <label id="bookInputLabel" htmlFor={name}>{label}</label>
+          </div>
+          );
     }
 
     return (
@@ -59,7 +58,7 @@ const EventBookingOffer = () => {
             <h2>{user?.name}</h2>
             {renderInputField("date", "Date of performance")}
             {renderInputField("budget", "Budget")}
-            {renderInputField("description", "Description, location, or additional information", true)}
+            {renderTextArea("description", "Description, location, or additional information")}
             {renderInputField("name", "Your name")}
             {renderInputField("email", "Your email")}
               <Button className="textinputWidth" onPress={onSubmitPress} title="Submit offer" colorType="Pink"/>

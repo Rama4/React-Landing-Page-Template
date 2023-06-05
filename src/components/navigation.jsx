@@ -26,22 +26,22 @@ export const Navigation = ({doShowLogin}) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='/A1' className='page-scroll'>
+              <a href='/booking' className='page-scroll'>
                 Home
               </a>
             </li>
             <li>
-              <a href='/directory' className='page-scroll'>
+              <a href='/' className='page-scroll'>
                 Directory
               </a>
             </li>
             <li>
-              <a href='/join' className='page-scroll'>
+              <a href='/' className='page-scroll'>
                 Join
               </a>
             </li>
             <li>
-              <a href='/about' className='page-scroll'>
+              <a href='/' className='page-scroll'>
                 About
               </a>
             </li>
@@ -58,6 +58,11 @@ export const Navigation = ({doShowLogin}) => {
             <li>
               <a href='/signup' className='page-scroll'>
                 Sign Up 
+              </a>
+            </li>
+            <li>
+              <a href='/search' className='page-scroll'>
+                Search Results
               </a>
             </li>
           </ul>

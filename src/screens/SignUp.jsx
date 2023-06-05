@@ -36,15 +36,24 @@ const SignUp = () => {
       console.log("submit pressed");
     };
 
-    const renderInputField = (name, label, multiline=false) => {
+    const renderInputField = (name, label) => {
         return (
           <div className="bookInputRow">
-              <Textinput rows={7} multiline={multiline} name={name} className="textinputWidth textinputHeight"  / >
+              <Textinput name={name}  / >
               <label id="bookInputLabel" htmlFor={name}>{label}</label>
           </div>
         );
     };
 
+    const renderEmailField = (name, label) => {
+        return (
+          <div className="bookInputRow">
+              <Textinput name={name} inputType="email"  / >
+              <label id="bookInputLabel" htmlFor={name}>{label}</label>
+          </div>
+        );
+    };
+    
     const renderTermsAndConditionsCheckbox = () => {
         return (
           <div className="bookInputRow">
@@ -59,7 +68,7 @@ const SignUp = () => {
             <h2>Join {user?.name} Live</h2>
             {renderInputField("firstName", "First Name")}
             {renderInputField("lastName", "Last Name")}
-            {renderInputField("email", "Email Address")}
+            {renderEmailField("email", "Email Address")}
             {renderTermsAndConditionsCheckbox()}
             <Button className="textinputWidth" onPress={onSubmitPress} title="Submit offer" colorType="Pink"/>
         </div>

@@ -4,7 +4,7 @@ const defaultRows = 4;
 const defaultColumns = 20;
 
 const Textinput = (props) => {
-    const {label, name, className, multiline, rows, cols} = props;
+    const {label, name, className, multiline, rows, cols, inputType} = props;
     useEffect(()=>{
     },[]);
 
@@ -33,7 +33,7 @@ const Textinput = (props) => {
             return <textarea className={getClassName} name={name} rows={getRows} cols={getCols}></textarea>;
         }
         else
-            return <input className={getClassName} name={name} type="text" />;
+            return <input className={getClassName} name={name} type={inputType ?? "text"} />;
     }
 
     return (
