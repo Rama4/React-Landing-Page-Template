@@ -1,4 +1,14 @@
+import {useState} from 'react';
+import { SearchBar, SearchBarResults } from "./shared";
+import { useEffect } from 'react';
+
 export const Navigation = ({doShowLogin}) => {
+  const [results, setResults] = useState([]);
+
+  useEffect(()=>{
+    console.log(results);
+  },[results])
+
   return (
     <nav id='menu' className='navbar navbar-default'>
       <div className='container'>
@@ -50,20 +60,20 @@ export const Navigation = ({doShowLogin}) => {
                 Event organizer profile
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='/eventbookingoffer' className='page-scroll'>
                 Offer 
               </a>
-            </li>
+            </li> */}
             <li>
               <a href='/signup' className='page-scroll'>
                 Sign Up 
               </a>
             </li>
             <li>
-              <a href='/search' className='page-scroll'>
-                Search Results
-              </a>
+              <div className="page-scroll">
+                <SearchBar className="" setResults={setResults} />
+              </div>
             </li>
           </ul>
         </div>

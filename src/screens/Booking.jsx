@@ -3,7 +3,7 @@ import "../App.css";
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import {Button, Textinput} from '../components/shared';
-import { useParams, useNavigate } from "react-router-dom";
+import { createSearchParams, useNavigate } from "react-router-dom";
 import JsonData from "../data/data.json";
 
 const mockUser = {
@@ -31,41 +31,30 @@ const Booking = () => {
     const [venues, setVenues] = useState([]);
     const [eventDate, setEventDate] = useState(new Date());
     const [landingPageData, setLandingPageData] = useState([]);
+    const [checkedState, setCheckedState] = useState([]);
 
 
 
     useEffect(()=>{
-    setUser(mockUser);
-    setPerformers(mockPerformers);
-    setVenues(mockVenues);
-    const details = JsonData.Genres;
-    setLandingPageData(details);
-
+        setUser(mockUser);
+        setPerformers(mockPerformers);
+        setVenues(mockVenues);
+        const genresList = JsonData?.Genres ?? [];
+        setLandingPageData(genresList);
+        setCheckedState(new Array(genresList.length).fill(false))
     },[]);
 
-    const onSubmitPress = () => {
-      console.log("submit pressed");
-    }
 
-    const renderInputField = (name, label) => {
-        return (
-            <div className="bookInputRow">
-                <Textinput name={name}  / >
-                <label id="bookInputLabel" htmlFor={name}>{label}</label>
-            </div>
-            );
-    }
-    const renderTextArea = (name, label) => {
-        return (
-          <div className="bookInputRow">
-              <Textinput rows={7} cols={42} multiline={true} name={name}  / >
-              <label id="bookInputLabel" htmlFor={name}>{label}</label>
-          </div>
-          );
-    }
-    
+    const handleOnChange = (position) => {
+        const updatedCheckedState = checkedState.map((item, index) =>
+        index === position ? !item : item
+        );
+
+        setCheckedState(updatedCheckedState);
+    };
+
     const onDateChange = (d) => {
-      console.log(d);
+      console.log("date set:", d);
       setEventDate(d);
     }
 
@@ -75,13 +64,18 @@ const Booking = () => {
         return (
             <div className="genreCheckboxContainer">
                 <div className="leftList">
-
             {
-                leftList?.map((genre, id) => {
+                leftList?.map((genre, index) => {
                     return (
                         <>
-                            <div key={id}  className="bookInputRow">
-                                <input name={genre.id} type="checkbox" className="coloredBorder TNCcheckbox" />
+                            <div key={index}  className="bookInputRow">
+                                <input 
+                                    name={genre.id}
+                                    type="checkbox"
+                                    className="coloredBorder TNCcheckbox"
+                                    checked={checkedState[index]}
+                                    onChange={() => handleOnChange(index)}
+                                />
                                 <label id="bookInputLabel" htmlFor={genre.id} >{genre.name}</label>
                             </div>
                         </>
@@ -91,11 +85,17 @@ const Booking = () => {
             </div>
             <div className="rightlist">
             {
-                rightlist?.map((genre, id) => {
+                rightlist?.map((genre, index) => {
                     return (
                         <>
-                            <div key={id}  className="bookInputRow">
-                                <input name={genre.id} type="checkbox" className="coloredBorder TNCcheckbox" />
+                            <div key={index+8}  className="bookInputRow">
+                                <input 
+                                    name={genre.id}
+                                    type="checkbox"
+                                    className="coloredBorder TNCcheckbox"
+                                    checked={checkedState[index+8]}
+                                    onChange={() => handleOnChange(index+8)}
+                                />
                                 <label id="bookInputLabel" htmlFor={genre.id} >{genre.name}</label>
                             </div>
                         </>
@@ -108,10 +108,15 @@ const Booking = () => {
     }
 
     const onFindAPerformerPress = () => {
-        navigate('/search');
+        
+        navigate({
+            pathname: '/search',
+            search: createSearchParams({
+                genres: JSON.stringify(checkedState),
+                eventDate: eventDate 
+            }).toString()
+        });
     }
-
-
 
     return (
     <div className="container">

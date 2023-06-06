@@ -585,6 +585,10 @@ p.project-item.event-card-title:hover  {
   max-height: 125px;
 }
 
+.artistDescription {
+  text-align: justify;
+}
+
 /* booking */
 
 .bookingContainer{
@@ -620,4 +624,16 @@ p.project-item.event-card-title:hover  {
   width: 50%;
 }
 
+
+/* search bar */
+
+.search-bar-container {
+  width: 20%;
+  /* height: 100%; */
+  /* margin: auto; */
+  /* display: flex; */
+  /* flex-direction: column;
+  align-items: center; */
+  min-width: 200px;
+}
 

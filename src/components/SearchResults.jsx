@@ -1,16 +1,10 @@
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "../App.css";
 import 'react-calendar/dist/Calendar.css';
-import { useParams } from "react-router-dom";
+import { useLocation, useSearchParams } from "react-router-dom";
 import JsonData from "../data/data.json";
 import SearchResult from "./SearchResult";
-
-const mockSearchResults = [
-    "Juliana MacDowell",
-    "Jason Masi",
-    "Linkin Park"
-]
 
 const venueSearchResults = [
 
@@ -18,24 +12,86 @@ const venueSearchResults = [
 
 
 const SearchResults = () => {
-    
+
+
       const [landingPageData, setLandingPageData] = useState({});
-      const [artistSearchResults, setArtistSearchResults] = useState([]);
       const [artistData, setArtistData] = useState([]);
-      
+
+      const {state} = useLocation();
+      const [searchParams] = useSearchParams();
+      const {searchString} = state ?? '';
+      const genres = JSON.parse(searchParams?.get('genres') ?? '[]');
+      const eventDate = searchParams?.get('eventDate') ?? null;
+
+      const getGenre = (id) => {
+        const result = JsonData.Genres.find(g => g.id === id);
+        return result?.name ?? 'unknown';
+      }
+  
       useEffect(()=>{
+                
         setLandingPageData(JsonData);
-        setArtistSearchResults(mockSearchResults);
-        for(let artist of mockSearchResults) {
-          console.log(artist);
-          const details = landingPageData.Artists?.find(a => {return a.name === artist;}) ?? null;
-          console.log(details);
-          if(details) {
-              setArtistData(artistData =>[...artistData, details]);
+        setArtistData([]);
+        const genreFilter = genres?.length > 0 ? genres.includes(true) : false;
+        const searchFilter = searchString?.length > 0;
+        if(!genreFilter && !searchFilter) {
+          // all results
+          console.log('ALL RESULTS')
+          setArtistData(JsonData.Artists);
+        }
+        else {
+            if(genreFilter) {
+              genres.forEach(function (value, i) {
+              if(value)
+              console.log('Genres: ', getGenre(i+1));
+            });
+          }
+          console.log("eventDate=",eventDate);
+          console.log("searchString=",searchString);
+          const results = JsonData.Artists?.filter((artist) => {
+            const res = isMatchingFilters(artist, searchString, genres, eventDate);
+            console.log(`${artist.name} => ${res}`);
+            return res;
+          });
+          console.log("results=", results);
+          if(results?.length > 0) {
+            setArtistData(artistData =>[...artistData, ...results]);
+            console.log("artistData=",artistData);
           }
         }
-        console.log(artistData);
-      },[landingPageData, artistSearchResults]);
+      },[searchString, searchParams]);
+
+
+      const isMatchingFilters = useCallback((artist, searchString, genres, eventDate) => {
+        console.log("isContainsEventType",artist.name);
+        const genreFilter = genres?.length > 0 ? genres.includes(true) : false;
+        const searchFilter = searchString?.length > 0;
+
+
+        // search by genre, if any
+        if(genreFilter) {
+          for(let i=0; i<genres.length; i++) {
+            // if checkbox corresponding to genre was selected 
+            if(genres[i]) {
+              const genreId = i+1;
+              if(artist.genres.includes(genreId)) {
+                console.log(`Found genre ${getGenre(genreId)} for artist!`);
+                return true;
+              }
+            }
+          }
+        }
+        // search by date, if any
+        // TODO
+        // search by search bar input, if any
+        if(searchFilter) {
+          for(let e of artist?.eventTypes) {
+            if(e.toLowerCase().includes(searchString.toLowerCase()))
+            return true;
+          }
+        }
+        return false;
+      },[]);
 
       const renderArtistSearchResults = () => {
         console.log(artistData);
@@ -47,7 +103,6 @@ const SearchResults = () => {
             })}
           </>
           );
-
       };
 
       const renderVenueSearchResults = () => {
@@ -61,9 +116,6 @@ const SearchResults = () => {
           );
 
       };
-
-
-
 
       return (
         <div className="container">

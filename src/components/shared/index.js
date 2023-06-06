@@ -5,6 +5,10 @@ import SpotifyIcon from "./SpotifyIcon";
 import YoutubeEmbed from "./YoutubeEmbed";
 import Button from './Button';
 import Textinput from './Textinput';
+import SearchBar from "./SearchBar";
+import SearchBarResult from "./SearchBarResult";
+import SearchBarResults from "./SearchBarResults";
+import MagnifyingGlassIcon from './MagnifyingGlassIcon';
 
 export {
 FacebookIcon,
@@ -13,5 +17,9 @@ InstagramIcon,
 SpotifyIcon,
 YoutubeEmbed,
 Button,
-Textinput
+Textinput,
+SearchBar,
+SearchBarResult,
+SearchBarResults,
+MagnifyingGlassIcon
 };
