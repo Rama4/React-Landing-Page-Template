@@ -58,7 +58,8 @@ const EventBookingOffer = () => {
             <h2>{user?.name}</h2>
             {renderInputField("date", "Date of performance")}
             {renderInputField("budget", "Budget")}
-            {renderTextArea("description", "Description, location, or additional information")}
+            {renderInputField("location", "Event Location")}
+            {renderTextArea("description", "Description, or additional information")}
             {renderInputField("name", "Your name")}
             {renderInputField("email", "Your email")}
               <Button className="textinputWidth" onPress={onSubmitPress} title="Submit offer" colorType="Pink"/>

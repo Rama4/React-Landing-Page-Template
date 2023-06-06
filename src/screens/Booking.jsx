@@ -2,43 +2,17 @@ import React, { useState, useEffect } from "react";
 import "../App.css";
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-import {Button, Textinput} from '../components/shared';
+import {Button} from '../components/shared';
 import { createSearchParams, useNavigate } from "react-router-dom";
 import JsonData from "../data/data.json";
 
-const mockUser = {
-  name: "Jason Masi",
-}
-
-const mockPerformers = [
-  {
-    name: 'Jason Masi',
-    id: "A2"
-  }
-];
-
-const mockVenues = [
-  {
-    name: 'Black Walnut Brewery',
-    id: "V1"
-  }
-]
-
 const Booking = () => {
     const navigate = useNavigate();
-    const [user, setUser] = useState({});
-    const [performers, setPerformers] = useState([]);
-    const [venues, setVenues] = useState([]);
     const [eventDate, setEventDate] = useState(new Date());
     const [landingPageData, setLandingPageData] = useState([]);
     const [checkedState, setCheckedState] = useState([]);
 
-
-
     useEffect(()=>{
-        setUser(mockUser);
-        setPerformers(mockPerformers);
-        setVenues(mockVenues);
         const genresList = JsonData?.Genres ?? [];
         setLandingPageData(genresList);
         setCheckedState(new Array(genresList.length).fill(false))

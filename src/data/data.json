@@ -1,9 +1,10 @@
 {
-  "Header": {
+  "About": {
     "title1": "Welcome to",
     "title2": "Maricopa",
     "title3": "County",
-    "paragraph": "Welcome to the county website of Maricopa County, Arizona, where the stunning desert landscapes meet vibrant urban life."
+    "name": "Benefit Live",
+    "paragraph": "Benefit Live is an online booking platform which will allow Loudoun area musicians to create and upload their profile to be searched for by Loudoun tourism & hospitality businesses and vice versa, resulting in bookings."
   },
   "Genres": [
 {
@@ -286,60 +287,6 @@
       "eventTypes": ["Wedding", "Baby Shower", "Sweet Sixteen", "Halloween", "Christmas", "Party"]
       }
   ],
-  "Testimonials": [
-    {
-      "img": "",
-      "text": "",
-      "name": ""
-    },
-    {
-      "img": "",
-      "text": "",
-      "name": ""
-    },
-    {
-      "img": "",
-      "text": "",
-      "name": ""
-    },
-    {
-      "img": "",
-      "text": "",
-      "name": ""
-    },
-    {
-      "img": "",
-      "text": "",
-      "name": ""
-    },
-    {
-      "img": "",
-      "text": "",
-      "name": ""
-    }
-  ],
-  "Team": [
-    {
-      "img": "",
-      "name": "",
-      "job": ""
-    },
-    {
-      "img": "",
-      "name": "",
-      "job": ""
-    },
-    {
-      "img": "",
-      "name": "",
-      "job": ""
-    },
-    {
-      "img": "",
-      "name": "",
-      "job": ""
-    }
-  ],
   "Contact": {
     "address": "301 West Jefferson Street, Phoenix, Arizona 85003",
     "phone": "602-506-3011",
@@ -347,27 +294,5 @@
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-laptop",
-      "title": "Microsoft 365",
-      "text": "Increase your team's productivity with Microsoft 365 by making your users' work more accessible."
-    },
-    {
-      "icon": "fa fa-server",
-      "title": "Microsoft Cloud Azure",
-      "text": "You can use Microsoft's data centre and backup centre to create an environment that requires as many resources as you need."
-    },
-    {
-      "icon": "fa fa-hdd-o",
-      "title": "Data Center",
-      "text": "Mini data centre planning and construction services are integral to our expertise in developing information technology infrastructure."
-    },
-    {
-      "icon": "fa fa-users",
-      "title": "Academy",
-      "text": "Academy is a premium technology-based online academy designed to create professionals in the IT department. Students will learn with real case studies guided by experienced tutors."
-    }
-  ]
+  }
 }

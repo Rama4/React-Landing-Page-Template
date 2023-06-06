@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Header } from "../components/header";
-import { About } from "../components/about";
 import { Gallery } from "../components/gallery";
 import { Contact } from "../components/contact";
 
@@ -17,7 +16,6 @@ const Home = () => {
 
     return (<>
         <Header data={landingPageData.Header} />
-        <About data={landingPageData.About} />
         <Gallery data={landingPageData.Events}/>
         <Contact data={landingPageData.Contact} />
       </>);

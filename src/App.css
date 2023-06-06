@@ -97,6 +97,7 @@ label {
 }
 
 
+
 /* Add event / Add vendor */
 
 .vendorForm {
@@ -253,6 +254,12 @@ p.project-item.event-card-title:hover  {
 		overflow-x: hidden;
 	}
 }
+
+.accountIcon {
+  height: 20px;
+  width: 20px;
+}
+
 
 /* event details component */
 

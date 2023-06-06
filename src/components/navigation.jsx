@@ -1,8 +1,8 @@
 import {useState} from 'react';
-import { SearchBar, SearchBarResults } from "./shared";
+import { SearchBar, SearchBarResults, UserIcon } from "./shared";
 import { useEffect } from 'react';
 
-export const Navigation = ({doShowLogin}) => {
+export const Navigation = () => {
   const [results, setResults] = useState([]);
 
   useEffect(()=>{
@@ -41,30 +41,20 @@ export const Navigation = ({doShowLogin}) => {
               </a>
             </li>
             <li>
-              <a href='/' className='page-scroll'>
+              <a href='/search' className='page-scroll'>
                 Directory
               </a>
             </li>
             <li>
-              <a href='/' className='page-scroll'>
+              <a href='/login' className='page-scroll'>
                 Join
               </a>
             </li>
             <li>
-              <a href='/' className='page-scroll'>
+              <a href='/about' className='page-scroll'>
                 About
               </a>
             </li>
-            <li>
-              <a href='/eventorganizerwelcome' className='page-scroll'>
-                Event organizer profile
-              </a>
-            </li>
-            {/* <li>
-              <a href='/eventbookingoffer' className='page-scroll'>
-                Offer 
-              </a>
-            </li> */}
             <li>
               <a href='/signup' className='page-scroll'>
                 Sign Up 
@@ -74,6 +64,11 @@ export const Navigation = ({doShowLogin}) => {
               <div className="page-scroll">
                 <SearchBar className="" setResults={setResults} />
               </div>
+            </li>
+            <li>
+              <a href='/account' className='page-scroll'>
+                <UserIcon color="#DB408E" className="accountIcon" />
+              </a>
             </li>
           </ul>
         </div>
