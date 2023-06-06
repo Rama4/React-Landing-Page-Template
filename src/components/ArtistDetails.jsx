@@ -17,6 +17,12 @@ const ArtistDetails = () => {
     setLandingPageData(details);
   },[x]);
 
+  const getGenre = (id) => {
+    const result = JsonData.Genres.find(g => g.id === id);
+    return result?.name ?? '';
+  }
+
+
   const onMakeAnOfferPress = () => {
     navigate('/eventbookingoffer');
   }
@@ -26,8 +32,8 @@ const ArtistDetails = () => {
     return <div className="row">
       <ul className="genres">
       <li><h4>Genres: </h4></li>
-      {landingPageData.genres?.map((g, i) => {
-        return <li><h5>{g}</h5></li>;
+      {landingPageData.genres?.map((gid, i) => {
+        return <li><h5>{getGenre(gid)}</h5></li>;
       })}
       </ul>
     </div>
