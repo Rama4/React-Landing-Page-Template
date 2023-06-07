@@ -208,45 +208,19 @@ p.project-item.event-card-title:hover  {
   padding: 0;
 }
 
-/* .dropdown-toggle:active{
-  background-color: #005b38;
-  color: white;
-} */
 .dropdown-menu {
 	min-width: 200px;
-  background-color: #005b38;
-  color: white;
-}
-.dropdown-menu.columns-2 {
-	min-width: 400px;
-}
-.dropdown-menu.columns-3 {
-	min-width: 600px;
 }
 .dropdown-menu li a {
+  color: #DB408E;
 	padding: 5px 15px;
 	font-weight: 300;
 }
-.multi-column-dropdown {
-	list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-.multi-column-dropdown li a {
-	display: block;
-	clear: both;
-	line-height: 1.428571429;
-	white-space: normal;
-  text-decoration: none;
+.dropdown-menu li a:hover {
+  background-color: #DB408E;
   color: white;
-  background: #005b38;
 }
-.multi-column-dropdown li a:hover {
-	text-decoration: none;
-  background: white;
-  color:#005b38;
- 
-}
+
  
 @media (max-width: 767px) {
 	.dropdown-menu.multi-column {
@@ -617,8 +591,6 @@ p.project-item.event-card-title:hover  {
 .genreCheckboxContainer {
   display: flex;
   flex-direction: row;
-  /* width: 50%;
-  max-width: 50%; */
 }
 .rightlist {
   flex-direction: column;
@@ -641,13 +613,15 @@ p.project-item.event-card-title:hover  {
 
 .search-bar-container {
   width: 20%;
-  /* height: 100%; */
-  /* margin: auto; */
-  /* display: flex; */
-  /* flex-direction: column;
-  align-items: center; */
   min-width: 200px;
 }
+
+/* login */
+
+.verticalSpace {
+  margin-bottom: 20px;
+}
+
 
 /* add performer */
 

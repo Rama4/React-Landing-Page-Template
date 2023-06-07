@@ -10,6 +10,7 @@ import SearchBar from "./SearchBar";
 import SearchBarResult from "./SearchBarResult";
 import SearchBarResults from "./SearchBarResults";
 import MagnifyingGlassIcon from './MagnifyingGlassIcon';
+import Message from "./Message";
 
 export {
 FacebookIcon,
@@ -23,5 +24,6 @@ Textinput,
 SearchBar,
 SearchBarResult,
 SearchBarResults,
-MagnifyingGlassIcon
+MagnifyingGlassIcon,
+Message
 };

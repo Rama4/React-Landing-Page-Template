@@ -60,11 +60,16 @@ export const Navigation = () => {
                 <SearchBar className="" setResults={setResults} />
               </div>
             </li>
-            <li>
-              <a href='/account' className='page-scroll'>
+            <li class="dropdown">
+              <a href='#' className='dropdown-toggle' data-toggle="dropdown">
                 <UserIcon color="#DB408E" className="accountIcon" />
               </a>
-            </li>
+	            <ul class="dropdown-menu">
+                <li><a href="/account">Account Settings</a></li>
+					      <li><a href="/login">Login</a></li>
+					      {/* <li><a href="/">Sign Out</a></li> */}
+	            </ul>
+	          </li>
           </ul>
         </div>
       </div>

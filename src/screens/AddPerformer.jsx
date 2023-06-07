@@ -1,25 +1,26 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
 import 'react-calendar/dist/Calendar.css';
-import {Button, Textinput} from '../components/shared';
+import {Button, Textinput, Message} from '../components/shared';
 import JsonData from "../data/data.json";
 import { useNavigate } from "react-router-dom";
 
 const AddPerformer = () => {
-    const [landingPageData, setLandingPageData] = useState([]);
-    const [checkedState, setCheckedState] = useState([]);
     const navigate = useNavigate();
+    const [landingPageData, setLandingPageData] = useState([]);
+    const [message, setMessage] = useState("");
 
 
     useEffect(()=>{
     const genresList = JsonData?.Genres ?? [];
         setLandingPageData(genresList);
-        setCheckedState(new Array(genresList.length).fill(false));
     },[]);
 
     const onSubmitPress = () => {
-      alert("Performer added successfully!");
-      navigate('/');
+      setMessage("Performer added successfully!");
+      setTimeout(()=>{
+        navigate('/');
+      },1500);
     }
 
     const renderInputField = (name, label) => {
@@ -42,12 +43,13 @@ const AddPerformer = () => {
     return (
         <div className="container">
             <h2>Add Performer</h2>
+            <Message text={message} type={1}/>
             <div className="bookingContainer">
               <div className="bookingLeft">
                 {renderInputField("name", "Name")}
                 {renderInputField("profilePic", "Profile URL")}
-                {renderInputField("genres", "Genres")}
-                {renderInputField("price", "Price")}
+                {renderInputField("genres", "Genres ex: Rock, Pop, etc.")}
+                {renderInputField("price", "Price ex: $, $$, $$$, etc.")}
                 {renderInputField("facebook", "Facebook Link")}
                 {renderInputField("instagram", "Instagram Link")}
                 {renderInputField("spotify", "Spotify Link")}
@@ -59,11 +61,11 @@ const AddPerformer = () => {
                 {renderTextArea("photos", "Photo Links")}
                 {renderTextArea("songs", "Song Links")}
                 {renderTextArea("videos", "Video Links")}
-                {renderTextArea("linke", "Links")}
-                {renderTextArea("eventTypes", "Event Types")}
+                {renderTextArea("links", "Other Links ")}
+                {renderTextArea("eventTypes", "Event Types  ex: Sweet Sixteen, Wedding, etc.")}
               </div>
             </div>
-              <Button className="textinputWidth" onPress={onSubmitPress} title="Add Performer" colorType="Pink"/>
+              <Button className="textinputWidth verticalSpace" onPress={onSubmitPress} title="Add Performer" colorType="Pink"/>
         </div>
     );
 };

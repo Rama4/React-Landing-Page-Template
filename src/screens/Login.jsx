@@ -1,39 +1,18 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
 import 'react-calendar/dist/Calendar.css';
-import {Button, Textinput} from '../components/shared';
-
-const mockUser = {
-  name: "Jason Masi",
-}
-
-const mockPerformers = [
-  {
-    name: 'Jason Masi',
-    id: "A2"
-  }
-];
-
-const mockVenues = [
-  {
-    name: 'Black Walnut Brewery',
-    id: "V1"
-  }
-]
+import {Button, Textinput, Message} from '../components/shared';
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
-    const [user, setUser] = useState({});
-    const [performers, setPerformers] = useState([]);
-    const [venues, setVenues] = useState([]);
-
-    useEffect(()=>{
-      setUser(mockUser);
-      setPerformers(mockPerformers);
-      setVenues(mockVenues);
-    },[]);
-
+    const navigate = useNavigate();
+    const [message, setMessage] = useState("");
+    
     const onSubmitPress = () => {
-      console.log("submit pressed");
+      setMessage("Logged in Successfully!");
+      setTimeout(()=>{
+        navigate('/');
+      },1500)
     };
 
     const renderPasswordField = (name, label) => {
@@ -53,11 +32,12 @@ const Login = () => {
           </div>
         );
     };
+    
 
     return (
         <div className="container">
-            <h2>Join {user?.name} Live</h2>
             <h3>Login</h3>
+            <Message text={message} type={1}/>
             {renderEmailField("email", "Email Address")}
             {renderPasswordField("password", "Password")}
             <div className="bookInputRow">
