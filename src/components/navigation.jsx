@@ -36,7 +36,7 @@ export const Navigation = () => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='/booking' className='page-scroll'>
+              <a href='/eventOrganizer' className='page-scroll'>
                 Home
               </a>
             </li>
@@ -46,18 +46,13 @@ export const Navigation = () => {
               </a>
             </li>
             <li>
-              <a href='/login' className='page-scroll'>
+              <a href='/signup' className='page-scroll'>
                 Join
               </a>
             </li>
             <li>
               <a href='/about' className='page-scroll'>
                 About
-              </a>
-            </li>
-            <li>
-              <a href='/signup' className='page-scroll'>
-                Sign Up 
               </a>
             </li>
             <li>

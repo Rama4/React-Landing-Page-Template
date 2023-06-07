@@ -7,6 +7,8 @@ import Booking from './Booking';
 import About from "./About";
 import AccountSettings from "./AccountSettings";
 import ForgotPassword from './ForgotPassword';
+import AddPerformer from "./AddPerformer";
+import AddVenue from './AddVenue';
 
 export {
 Home,
@@ -17,5 +19,7 @@ Booking,
 Login,
 About,
 AccountSettings,
-ForgotPassword
+ForgotPassword,
+AddPerformer,
+AddVenue
 };

@@ -97,7 +97,9 @@ const Booking = () => {
         <div className="bookingContainer">
             <div className="bookingLeft">
                 <h3>1. Select a date</h3>
-                <Calendar onChange={onDateChange} value={eventDate} />
+                <div id="calendarContainer">
+                    <Calendar id="calendar" onChange={onDateChange} value={eventDate} />
+                </div>
             </div>
             <div className="bookingRight">
                 <h3>2. Select a genre</h3>

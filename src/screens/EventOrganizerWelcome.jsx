@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
 import 'react-calendar/dist/Calendar.css';
-import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {Button} from '../components/shared';
 
 const mockUser = {
@@ -25,6 +25,7 @@ const mockVenues = [
 
 const EventOrganizerWelcome = () => {
   // const {x} = useParams();
+  const navigate = useNavigate();
   const [user, setUser] = useState({});
   const [performers, setPerformers] = useState([]);
   const [venues, setVenues] = useState([]);
@@ -46,10 +47,10 @@ const EventOrganizerWelcome = () => {
 
 
   const onCreatePerformerPress = () => {
-    
+    navigate('/addPerformer');
   }
   const onCreateVenuePress = () => {
-
+    navigate('/addVenue');
   }
 
   

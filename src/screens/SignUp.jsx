@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../App.css";
 import 'react-calendar/dist/Calendar.css';
 import {Button, Textinput} from '../components/shared';
+import { createSearchParams, useNavigate } from "react-router-dom";
 
 const mockUser = {
   name: "Jason Masi",
@@ -22,6 +23,8 @@ const mockVenues = [
 ]
 
 const SignUp = () => {
+    const navigate = useNavigate();
+
     const [user, setUser] = useState({});
     const [performers, setPerformers] = useState([]);
     const [venues, setVenues] = useState([]);
@@ -33,7 +36,7 @@ const SignUp = () => {
     },[]);
 
     const onSubmitPress = () => {
-      console.log("submit pressed");
+      navigate('/eventOrganizer');
     };
 
     const renderInputField = (name, label) => {
@@ -65,7 +68,7 @@ const SignUp = () => {
 
     return (
         <div className="container">
-            <h2>Join {user?.name} Live</h2>
+            <h2>Join Benefit Live</h2>
             {renderInputField("firstName", "First Name")}
             {renderInputField("lastName", "Last Name")}
             {renderEmailField("email", "Email Address")}

@@ -556,7 +556,7 @@ p.project-item.event-card-title:hover  {
 }
 
 #bookInputLabel {
-  margin-left: 40px;
+  margin-left: 20px;
   font-size: medium;
   font-weight: 700;
 }
@@ -600,7 +600,7 @@ p.project-item.event-card-title:hover  {
 
 .bookingContainer{
   display: flex;
-  flex:1;
+  /* flex:1; */
   flex-direction: row;
 }
 
@@ -623,12 +623,17 @@ p.project-item.event-card-title:hover  {
 .rightlist {
   flex-direction: column;
   width: 50%;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .leftlist {
   flex-direction: column;
   width: 50%;
+}
+
+#calendarContainer {
+  height: 350px;
+  max-height: 50%;
 }
 
 
@@ -643,4 +648,10 @@ p.project-item.event-card-title:hover  {
   align-items: center; */
   min-width: 200px;
 }
+
+/* add performer */
+
+
+
+/* add venue */
 

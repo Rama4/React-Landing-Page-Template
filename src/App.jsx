@@ -11,7 +11,7 @@ import Vendors from "./components/Vendors";
 // import Login from './components/Login';
 import { useState } from 'react';
 import ArtistDetails from './components/ArtistDetails';
-import {EventOrganizerWelcome, EventBookingOffer, SignUp, Booking, Login, About, AccountSettings, ForgotPassword} from './screens';
+import {EventOrganizerWelcome, EventBookingOffer, SignUp, Booking, Login, About, AccountSettings, ForgotPassword, AddVenue, AddPerformer} from './screens';
 import SearchResults from './components/SearchResults';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -33,20 +33,19 @@ const App = () => {
     <Router>
       <Navigation doShowLogin={doShowLogin} />
       <Routes>
-        <Route path='/' element={< EventOrganizerWelcome/>} />
+        <Route path='/' element={< Booking/>} />
+        <Route path='/eventOrganizer' element={< EventOrganizerWelcome/>} />
         <Route path='/account' element={< AccountSettings/>} />
         <Route path='/forgotPassword' element={< ForgotPassword/>} />
         <Route path='/about' element={< About/>} />
-        <Route path='/booking' element={< Booking/>} />
         <Route path='/search' element={< SearchResults/>} />
         <Route path='/signup' element={< SignUp/>} />
         <Route path='/login' element={< Login/>} />
         <Route path='/events' element={< Events/>} />
         <Route path='/vendors' element={< Vendors/>} />
-        <Route path='/addEvent' element={< AddEvent/>} />
-        <Route path='/addVendor' element={< AddVendor/>} />
+        <Route path='/addPerformer' element={< AddPerformer/>} />
+        <Route path='/addVenue' element={< AddVenue />} />
         <Route path='/eventbookingoffer' element={< EventBookingOffer/>} />
-        {/* <Route path='/eventorganizerwelcome' element={< EventOrganizerWelcome/>} /> */}
         <Route path='/:x' element={< ArtistDetails/>} />
       </Routes>
     </Router>
