@@ -15,6 +15,10 @@ const AddVenue = () => {
       },1500);
     }
 
+    const onCancelPress = () => {
+      navigate(-1);
+    };
+
     const renderInputField = (name, label) => {
         return (
             <div className="bookInputRow">
@@ -41,6 +45,7 @@ const AddVenue = () => {
             {renderInputField("contact", "Contact person name")}
             {renderInputField("phone", "Contact person phone")}
               <Button className="textinputWidth" onPress={onSubmitPress} title="Add Venue" colorType="Blue"/>
+              <Button className="textinputWidth" onPress={onCancelPress} title="Cancel" />
         </div>
     );
 };

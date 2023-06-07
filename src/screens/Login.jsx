@@ -11,7 +11,7 @@ const Login = () => {
     const onSubmitPress = () => {
       setMessage("Logged in Successfully!");
       setTimeout(()=>{
-        navigate('/');
+        navigate('/eventOrganizer');
       },1500)
     };
 

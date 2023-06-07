@@ -18,7 +18,7 @@ const mockPerformers = [
 const mockVenues = [
   {
     name: 'Black Walnut Brewery',
-    id: "V1"
+    id: ""
   }
 ]
 

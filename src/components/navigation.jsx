@@ -36,7 +36,7 @@ export const Navigation = () => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='/eventOrganizer' className='page-scroll'>
+              <a href='/' className='page-scroll'>
                 Home
               </a>
             </li>
@@ -67,7 +67,7 @@ export const Navigation = () => {
 	            <ul class="dropdown-menu">
                 <li><a href="/account">Account Settings</a></li>
 					      <li><a href="/login">Login</a></li>
-					      {/* <li><a href="/">Sign Out</a></li> */}
+					      <li><a href="/">Sign Out</a></li>
 	            </ul>
 	          </li>
           </ul>

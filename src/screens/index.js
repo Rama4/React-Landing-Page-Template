@@ -9,6 +9,7 @@ import AccountSettings from "./AccountSettings";
 import ForgotPassword from './ForgotPassword';
 import AddPerformer from "./AddPerformer";
 import AddVenue from './AddVenue';
+import VenueDetails from "./VenueDetails";
 
 export {
 Home,
@@ -21,5 +22,6 @@ About,
 AccountSettings,
 ForgotPassword,
 AddPerformer,
-AddVenue
+AddVenue,
+VenueDetails
 };

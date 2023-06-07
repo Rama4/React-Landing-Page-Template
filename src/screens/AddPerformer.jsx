@@ -10,7 +10,6 @@ const AddPerformer = () => {
     const [landingPageData, setLandingPageData] = useState([]);
     const [message, setMessage] = useState("");
 
-
     useEffect(()=>{
     const genresList = JsonData?.Genres ?? [];
         setLandingPageData(genresList);
@@ -22,6 +21,10 @@ const AddPerformer = () => {
         navigate('/');
       },1500);
     }
+
+    const onCancelPress = () => {
+      navigate(-1);
+    };
 
     const renderInputField = (name, label) => {
         return (
@@ -66,6 +69,7 @@ const AddPerformer = () => {
               </div>
             </div>
               <Button className="textinputWidth verticalSpace" onPress={onSubmitPress} title="Add Performer" colorType="Pink"/>
+              <Button className="textinputWidth" onPress={onCancelPress} title="Cancel" />
         </div>
     );
 };
