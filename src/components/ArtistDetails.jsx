@@ -55,7 +55,7 @@ const ArtistDetails = () => {
           <h3>Photos:</h3>
           <div id="photosContainer">
             {landingPageData.photos?.map((url,id) => {
-            return <img key={id} src={url} />
+            return <img alt="" key={id} src={url} />
           })}
           </div>
         </>
@@ -128,7 +128,7 @@ const ArtistDetails = () => {
       <div className="row container" id="eventDetailContainer">
         <div className="leftColumn">
           <h2>{landingPageData.name}</h2>
-          {landingPageData.profilePic && <img className="eventDetailImage" src={landingPageData?.profilePic} ></img>}
+          {landingPageData.profilePic && <img alt="" className="eventDetailImage" src={landingPageData?.profilePic} ></img>}
         </div>
         <div className="container rightColumn">
             {renderGenres()}

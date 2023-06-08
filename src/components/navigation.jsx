@@ -61,9 +61,9 @@ export const Navigation = () => {
               </div>
             </li>
             <li class="dropdown">
-              <a href='#' className='dropdown-toggle' data-toggle="dropdown">
+              <button className='dropdown-toggle btn btn-link' data-toggle="dropdown">
                 <UserIcon color="#DB408E" className="accountIcon" />
-              </a>
+              </button>
 	            <ul class="dropdown-menu">
                 <li><a href="/account">Account Settings</a></li>
 					      <li><a href="/login">Login</a></li>

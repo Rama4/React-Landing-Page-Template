@@ -59,6 +59,7 @@ const SearchResults = () => {
             console.log("artistData=",artistData);
           }
         }
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       },[searchString, searchParams]);
 
 
@@ -110,7 +111,7 @@ const SearchResults = () => {
           <>
             <h3>Venues</h3>
             {venueSearchResults?.map((d,i) => {
-              <SearchResult />    
+              return <SearchResult />    
             })}
           </>
           );

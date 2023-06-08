@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-concat */
 import React, { useState, useEffect } from "react";
 import { useMemo } from "react";
 
@@ -10,6 +11,7 @@ const Button = (props) => {
     },[colorType, title]);
 
     const getClassName = useMemo(() => {
+        
         const btnclass = "Button" + " " + 
             (className?.length > 0 ? className : '') + " " +
             (colorType === 'Pink' ? "button-pink" : colorType === 'Blue' ? "button-blue" : "button-black");
